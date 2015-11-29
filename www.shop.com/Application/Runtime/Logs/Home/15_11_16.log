@@ -1,0 +1,2825 @@
+[ 2015-11-16T17:20:15+08:00 ] 192.168.0.174 /Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.067791s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003064s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003450s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /home/www/www.shop.com/Application/Home/Controller/IndexController.class.php 第 60 行.
+SQL: SHOW COLUMNS FROM `goods_category` [ RunTime:0.1218s ]
+SQL: SELECT `id`,`name`,`parent_id`,`level` FROM `goods_category` WHERE ( status>0 ) ORDER BY lft  [ RunTime:0.0036s ]
+SQL: SHOW COLUMNS FROM `article_category` [ RunTime:0.0162s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0246s ]
+SQL: SELECT a.`id`,a.`name`,a.`article_category_id` FROM article_category AS ac JOIN article AS a ON ac.`id`=a.`article_category_id` WHERE ac.`is_help`=1; [ RunTime:0.0150s ]
+SQL: SELECT `id`,`name` FROM `article` WHERE `article_category_id` = 6  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0312s ]
+SQL: SELECT `id`,`name`,`shop_price`,`goods_status`,`logo` FROM `goods` WHERE ( is_on_sale=1 and status>0 ) ORDER BY sort  [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.030651s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.030992s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.120232s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.120323s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.011621s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011686s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001731s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001804s ]
+
+[ 2015-11-16T17:20:37+08:00 ] 192.168.0.174 /index.php/Home/Index/show/id/7.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000465s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000400s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000461s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /home/www/www.shop.com/Application/Home/Controller/IndexController.class.php 第 60 行.
+SQL: SHOW COLUMNS FROM `goods_category` [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name`,`parent_id`,`level` FROM `goods_category` WHERE ( status>0 ) ORDER BY lft  [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `article_category` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0017s ]
+SQL: SELECT a.`id`,a.`name`,a.`article_category_id` FROM article_category AS ac JOIN article AS a ON ac.`id`=a.`article_category_id` WHERE ac.`is_help`=1; [ RunTime:0.0011s ]
+SQL: SELECT `id`,`name` FROM `article` WHERE `article_category_id` = 6  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000378s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000456s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.058032s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.058083s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000124s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000139s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001933s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002019s ]
+
+[ 2015-11-16T17:20:40+08:00 ] 192.168.0.174 /index.php/Home/Index/show/id/images/preview_l1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000344s ]
+
+[ 2015-11-16T17:21:02+08:00 ] 192.168.0.174 /Home/Index/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000279s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000382s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000434s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /home/www/www.shop.com/Application/Home/Controller/IndexController.class.php 第 60 行.
+SQL: SHOW COLUMNS FROM `goods_category` [ RunTime:0.0005s ]
+SQL: SELECT `id`,`name`,`parent_id`,`level` FROM `goods_category` WHERE ( status>0 ) ORDER BY lft  [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `article_category` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0017s ]
+SQL: SELECT a.`id`,a.`name`,a.`article_category_id` FROM article_category AS ac JOIN article AS a ON ac.`id`=a.`article_category_id` WHERE ac.`is_help`=1; [ RunTime:0.0002s ]
+SQL: SELECT `id`,`name` FROM `article` WHERE `article_category_id` = 6  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000376s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000697s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024508s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024881s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000294s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000492s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001028s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001184s ]
+
+[ 2015-11-16T17:52:29+08:00 ] 192.168.0.174 /Home/Index/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000495s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000887s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000967s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /home/www/www.shop.com/Application/Home/Controller/IndexController.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `goods_category` [ RunTime:0.0011s ]
+SQL: SELECT `id`,`name`,`parent_id`,`level` FROM `goods_category` WHERE ( status>0 ) ORDER BY lft  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `article_category` [ RunTime:0.0039s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0007s ]
+SQL: SELECT a.`id`,a.`name`,a.`article_category_id` FROM article_category AS ac JOIN article AS a ON ac.`id`=a.`article_category_id` WHERE ac.`is_help`=1; [ RunTime:0.0005s ]
+SQL: SELECT `id`,`name` FROM `article` WHERE `article_category_id` = 6  [ RunTime:0.0003s ]
+ERR: 参数错误或者未定义:id
+
+[ 2015-11-16T17:53:07+08:00 ] 192.168.0.174 /Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000513s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000739s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /home/www/www.shop.com/Application/Home/Controller/IndexController.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `goods_category` [ RunTime:0.0008s ]
+SQL: SELECT `id`,`name`,`parent_id`,`level` FROM `goods_category` WHERE ( status>0 ) ORDER BY lft  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `article_category` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0008s ]
+SQL: SELECT a.`id`,a.`name`,a.`article_category_id` FROM article_category AS ac JOIN article AS a ON ac.`id`=a.`article_category_id` WHERE ac.`is_help`=1; [ RunTime:0.0004s ]
+SQL: SELECT `id`,`name` FROM `article` WHERE `article_category_id` = 6  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0011s ]
+SQL: SELECT `id`,`name`,`shop_price`,`goods_status`,`logo` FROM `goods` WHERE ( is_on_sale=1 and status>0 ) ORDER BY sort  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000389s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000563s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042488s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042615s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000268s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000483s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001239s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001480s ]
+
+[ 2015-11-16T17:53:09+08:00 ] 192.168.0.174 /index.php/Home/Index/show/id/7.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000473s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000515s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000567s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /home/www/www.shop.com/Application/Home/Controller/IndexController.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `goods_category` [ RunTime:0.0007s ]
+SQL: SELECT `id`,`name`,`parent_id`,`level` FROM `goods_category` WHERE ( status>0 ) ORDER BY lft  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `article_category` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0008s ]
+SQL: SELECT a.`id`,a.`name`,a.`article_category_id` FROM article_category AS ac JOIN article AS a ON ac.`id`=a.`article_category_id` WHERE ac.`is_help`=1; [ RunTime:0.0004s ]
+SQL: SELECT `id`,`name` FROM `article` WHERE `article_category_id` = 6  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `goods` WHERE `id` = 7 AND ( is_on_sale=1 and status>0 ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000466s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000839s ]
+NOTIC: [8] Undefined variable: logo /home/www/www.shop.com/Application/Runtime/Cache/Home/ef90aeb0d15d5181851dc046c9941189.php 第 320 行.
+NOTIC: [8] Undefined variable: logo /home/www/www.shop.com/Application/Runtime/Cache/Home/ef90aeb0d15d5181851dc046c9941189.php 第 320 行.
+NOTIC: [8] Undefined variable: logo /home/www/www.shop.com/Application/Runtime/Cache/Home/ef90aeb0d15d5181851dc046c9941189.php 第 320 行.
+NOTIC: [8] Undefined variable: market_price /home/www/www.shop.com/Application/Runtime/Cache/Home/ef90aeb0d15d5181851dc046c9941189.php 第 371 行.
+NOTIC: [8] Undefined variable: shop_price /home/www/www.shop.com/Application/Runtime/Cache/Home/ef90aeb0d15d5181851dc046c9941189.php 第 372 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027420s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027470s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000077s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001201s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001413s ]
+
+[ 2015-11-16T17:53:09+08:00 ] 192.168.0.174 /index.php/Home/Index/show/id/images/preview_l1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000384s ]
+
+[ 2015-11-16T17:55:14+08:00 ] 192.168.0.174 /index.php/Home/Index/show/id/7.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000450s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001305s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001402s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /home/www/www.shop.com/Application/Home/Controller/IndexController.class.php 第 64 行.
+SQL: SHOW COLUMNS FROM `goods_category` [ RunTime:0.0016s ]
+SQL: SELECT `id`,`name`,`parent_id`,`level` FROM `goods_category` WHERE ( status>0 ) ORDER BY lft  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `article_category` [ RunTime:0.0037s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0016s ]
+SQL: SELECT a.`id`,a.`name`,a.`article_category_id` FROM article_category AS ac JOIN article AS a ON ac.`id`=a.`article_category_id` WHERE ac.`is_help`=1; [ RunTime:0.0004s ]
+SQL: SELECT `id`,`name` FROM `article` WHERE `article_category_id` = 6  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `goods` WHERE `id` = 7 AND ( is_on_sale=1 and status>0 ) LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2015-11-16T17:56:16+08:00 ] 192.168.0.174 /index.php/Home/Index/show/id/7.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000415s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000284s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000410s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /home/www/www.shop.com/Application/Home/Controller/IndexController.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `goods_category` [ RunTime:0.0009s ]
+SQL: SELECT `id`,`name`,`parent_id`,`level` FROM `goods_category` WHERE ( status>0 ) ORDER BY lft  [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `article_category` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0006s ]
+SQL: SELECT a.`id`,a.`name`,a.`article_category_id` FROM article_category AS ac JOIN article AS a ON ac.`id`=a.`article_category_id` WHERE ac.`is_help`=1; [ RunTime:0.0003s ]
+SQL: SELECT `id`,`name` FROM `article` WHERE `article_category_id` = 6  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `goods` WHERE `id` = 7 AND ( is_on_sale=1 and status>0 ) LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000580s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000942s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026925s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027102s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000247s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000381s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001180s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001483s ]
+
+[ 2015-11-16T17:56:18+08:00 ] 192.168.0.174 /index.php/Home/Index/show/id/images/preview_l1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000392s ]
+
+[ 2015-11-16T17:56:50+08:00 ] 192.168.0.174 /index.php/Home/Index/show/id/images/preview_l2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000342s ]
+
+[ 2015-11-16T17:56:50+08:00 ] 192.168.0.174 /index.php/Home/Index/show/id/images/preview_m2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000128s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001263s ]
+
+[ 2015-11-16T17:57:00+08:00 ] 192.168.0.174 /index.php/Home/Index/show/id/images/preview_m2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000362s ]
+
+[ 2015-11-16T17:57:00+08:00 ] 192.168.0.174 /index.php/Home/Index/show/id/images/preview_l2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000435s ]
+
+[ 2015-11-16T18:10:41+08:00 ] 192.168.0.174 /index.php/Home/Index/show/id/7.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000100s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000207s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000279s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /home/www/www.shop.com/Application/Home/Controller/IndexController.class.php 第 68 行.
+SQL: SHOW COLUMNS FROM `goods_category` [ RunTime:0.0016s ]
+SQL: SELECT `id`,`name`,`parent_id`,`level` FROM `goods_category` WHERE ( status>0 ) ORDER BY lft  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `article_category` [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0006s ]
+SQL: SELECT a.`id`,a.`name`,a.`article_category_id` FROM article_category AS ac JOIN article AS a ON ac.`id`=a.`article_category_id` WHERE ac.`is_help`=1; [ RunTime:0.0009s ]
+SQL: SELECT `id`,`name` FROM `article` WHERE `article_category_id` = 6  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `goods` WHERE `id` = 7 AND ( is_on_sale=1 and status>0 ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `goods_gallery` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `goods_gallery` WHERE `id` = 7  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000246s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000724s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025399s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025699s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000148s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000213s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000963s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001328s ]
+
+[ 2015-11-16T18:10:42+08:00 ] 192.168.0.174 /index.php/Home/Index/show/id/images/preview_l1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000075s ]
+
+[ 2015-11-16T18:11:11+08:00 ] 192.168.0.174 /index.php/Home/Index/show/id/7.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000127s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000832s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000948s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /home/www/www.shop.com/Application/Home/Controller/IndexController.class.php 第 69 行.
+SQL: SHOW COLUMNS FROM `goods_category` [ RunTime:0.0008s ]
+SQL: SELECT `id`,`name`,`parent_id`,`level` FROM `goods_category` WHERE ( status>0 ) ORDER BY lft  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `article_category` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0006s ]
+SQL: SELECT a.`id`,a.`name`,a.`article_category_id` FROM article_category AS ac JOIN article AS a ON ac.`id`=a.`article_category_id` WHERE ac.`is_help`=1; [ RunTime:0.0003s ]
+SQL: SELECT `id`,`name` FROM `article` WHERE `article_category_id` = 6  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `goods` WHERE `id` = 7 AND ( is_on_sale=1 and status>0 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `goods_gallery` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `goods_gallery` WHERE `id` = 7  [ RunTime:0.0002s ]
+
+[ 2015-11-16T18:11:23+08:00 ] 192.168.0.174 /index.php/Home/Index/show/id/7.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000211s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000425s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /home/www/www.shop.com/Application/Home/Controller/IndexController.class.php 第 69 行.
+SQL: SHOW COLUMNS FROM `goods_category` [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name`,`parent_id`,`level` FROM `goods_category` WHERE ( status>0 ) ORDER BY lft  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `article_category` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0005s ]
+SQL: SELECT a.`id`,a.`name`,a.`article_category_id` FROM article_category AS ac JOIN article AS a ON ac.`id`=a.`article_category_id` WHERE ac.`is_help`=1; [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name` FROM `article` WHERE `article_category_id` = 6  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `goods` WHERE `id` = 7 AND ( is_on_sale=1 and status>0 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `goods_gallery` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `goods_gallery` WHERE `id` = 7  [ RunTime:0.0002s ]
+
+[ 2015-11-16T18:14:35+08:00 ] 192.168.0.174 /index.php/Home/Index/show/id/7.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000106s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000589s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000664s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /home/www/www.shop.com/Application/Home/Controller/IndexController.class.php 第 69 行.
+SQL: SHOW COLUMNS FROM `goods_category` [ RunTime:0.0007s ]
+SQL: SELECT `id`,`name`,`parent_id`,`level` FROM `goods_category` WHERE ( status>0 ) ORDER BY lft  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `article_category` [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0012s ]
+SQL: SELECT a.`id`,a.`name`,a.`article_category_id` FROM article_category AS ac JOIN article AS a ON ac.`id`=a.`article_category_id` WHERE ac.`is_help`=1; [ RunTime:0.0001s ]
+SQL: SELECT `id`,`name` FROM `article` WHERE `article_category_id` = 6  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `goods` WHERE `id` = 7 AND ( is_on_sale=1 and status>0 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `goods_gallery` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `goods_gallery` WHERE `id` = 7  [ RunTime:0.0001s ]
+
+[ 2015-11-16T18:14:36+08:00 ] 192.168.0.174 /index.php/Home/Index/show/id/7.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000073s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000368s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000400s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /home/www/www.shop.com/Application/Home/Controller/IndexController.class.php 第 69 行.
+SQL: SHOW COLUMNS FROM `goods_category` [ RunTime:0.0006s ]
+SQL: SELECT `id`,`name`,`parent_id`,`level` FROM `goods_category` WHERE ( status>0 ) ORDER BY lft  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `article_category` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0011s ]
+SQL: SELECT a.`id`,a.`name`,a.`article_category_id` FROM article_category AS ac JOIN article AS a ON ac.`id`=a.`article_category_id` WHERE ac.`is_help`=1; [ RunTime:0.0003s ]
+SQL: SELECT `id`,`name` FROM `article` WHERE `article_category_id` = 6  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `goods` WHERE `id` = 7 AND ( is_on_sale=1 and status>0 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `goods_gallery` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `goods_gallery` WHERE `id` = 7  [ RunTime:0.0002s ]
+
+[ 2015-11-16T18:14:37+08:00 ] 192.168.0.174 /index.php/Home/Index/show/id/7.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000087s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000149s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000165s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /home/www/www.shop.com/Application/Home/Controller/IndexController.class.php 第 69 行.
+SQL: SHOW COLUMNS FROM `goods_category` [ RunTime:0.0007s ]
+SQL: SELECT `id`,`name`,`parent_id`,`level` FROM `goods_category` WHERE ( status>0 ) ORDER BY lft  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `article_category` [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0010s ]
+SQL: SELECT a.`id`,a.`name`,a.`article_category_id` FROM article_category AS ac JOIN article AS a ON ac.`id`=a.`article_category_id` WHERE ac.`is_help`=1; [ RunTime:0.0006s ]
+SQL: SELECT `id`,`name` FROM `article` WHERE `article_category_id` = 6  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `goods` WHERE `id` = 7 AND ( is_on_sale=1 and status>0 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `goods_gallery` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `goods_gallery` WHERE `id` = 7  [ RunTime:0.0002s ]
+
+[ 2015-11-16T18:14:37+08:00 ] 192.168.0.174 /index.php/Home/Index/show/id/7.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000319s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000338s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /home/www/www.shop.com/Application/Home/Controller/IndexController.class.php 第 69 行.
+SQL: SHOW COLUMNS FROM `goods_category` [ RunTime:0.0011s ]
+SQL: SELECT `id`,`name`,`parent_id`,`level` FROM `goods_category` WHERE ( status>0 ) ORDER BY lft  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `article_category` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0004s ]
+SQL: SELECT a.`id`,a.`name`,a.`article_category_id` FROM article_category AS ac JOIN article AS a ON ac.`id`=a.`article_category_id` WHERE ac.`is_help`=1; [ RunTime:0.0003s ]
+SQL: SELECT `id`,`name` FROM `article` WHERE `article_category_id` = 6  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `goods` WHERE `id` = 7 AND ( is_on_sale=1 and status>0 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `goods_gallery` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `goods_gallery` WHERE `id` = 7  [ RunTime:0.0004s ]
+
+[ 2015-11-16T18:14:38+08:00 ] 192.168.0.174 /index.php/Home/Index/show/id/7.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000067s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000416s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /home/www/www.shop.com/Application/Home/Controller/IndexController.class.php 第 69 行.
+SQL: SHOW COLUMNS FROM `goods_category` [ RunTime:0.0006s ]
+SQL: SELECT `id`,`name`,`parent_id`,`level` FROM `goods_category` WHERE ( status>0 ) ORDER BY lft  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `article_category` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0014s ]
+SQL: SELECT a.`id`,a.`name`,a.`article_category_id` FROM article_category AS ac JOIN article AS a ON ac.`id`=a.`article_category_id` WHERE ac.`is_help`=1; [ RunTime:0.0006s ]
+SQL: SELECT `id`,`name` FROM `article` WHERE `article_category_id` = 6  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `goods` WHERE `id` = 7 AND ( is_on_sale=1 and status>0 ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `goods_gallery` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `goods_gallery` WHERE `id` = 7  [ RunTime:0.0002s ]
+
+[ 2015-11-16T18:14:38+08:00 ] 192.168.0.174 /index.php/Home/Index/show/id/7.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000057s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000347s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000392s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /home/www/www.shop.com/Application/Home/Controller/IndexController.class.php 第 69 行.
+SQL: SHOW COLUMNS FROM `goods_category` [ RunTime:0.0008s ]
+SQL: SELECT `id`,`name`,`parent_id`,`level` FROM `goods_category` WHERE ( status>0 ) ORDER BY lft  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `article_category` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0006s ]
+SQL: SELECT a.`id`,a.`name`,a.`article_category_id` FROM article_category AS ac JOIN article AS a ON ac.`id`=a.`article_category_id` WHERE ac.`is_help`=1; [ RunTime:0.0003s ]
+SQL: SELECT `id`,`name` FROM `article` WHERE `article_category_id` = 6  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `goods` WHERE `id` = 7 AND ( is_on_sale=1 and status>0 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `goods_gallery` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `goods_gallery` WHERE `id` = 7  [ RunTime:0.0002s ]
+
+[ 2015-11-16T18:14:39+08:00 ] 192.168.0.174 /index.php/Home/Index/show/id/7.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000066s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000353s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000397s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /home/www/www.shop.com/Application/Home/Controller/IndexController.class.php 第 69 行.
+SQL: SHOW COLUMNS FROM `goods_category` [ RunTime:0.0007s ]
+SQL: SELECT `id`,`name`,`parent_id`,`level` FROM `goods_category` WHERE ( status>0 ) ORDER BY lft  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `article_category` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0006s ]
+SQL: SELECT a.`id`,a.`name`,a.`article_category_id` FROM article_category AS ac JOIN article AS a ON ac.`id`=a.`article_category_id` WHERE ac.`is_help`=1; [ RunTime:0.0004s ]
+SQL: SELECT `id`,`name` FROM `article` WHERE `article_category_id` = 6  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `goods` WHERE `id` = 7 AND ( is_on_sale=1 and status>0 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `goods_gallery` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `goods_gallery` WHERE `id` = 7  [ RunTime:0.0002s ]
+
+[ 2015-11-16T18:14:41+08:00 ] 192.168.0.174 /index.php/Home/Index/show/id/7.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000074s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000561s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000653s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /home/www/www.shop.com/Application/Home/Controller/IndexController.class.php 第 69 行.
+SQL: SHOW COLUMNS FROM `goods_category` [ RunTime:0.0007s ]
+SQL: SELECT `id`,`name`,`parent_id`,`level` FROM `goods_category` WHERE ( status>0 ) ORDER BY lft  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `article_category` [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0011s ]
+SQL: SELECT a.`id`,a.`name`,a.`article_category_id` FROM article_category AS ac JOIN article AS a ON ac.`id`=a.`article_category_id` WHERE ac.`is_help`=1; [ RunTime:0.0006s ]
+SQL: SELECT `id`,`name` FROM `article` WHERE `article_category_id` = 6  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `goods` WHERE `id` = 7 AND ( is_on_sale=1 and status>0 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `goods_gallery` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `goods_gallery` WHERE `id` = 7  [ RunTime:0.0002s ]
+
+[ 2015-11-16T18:14:41+08:00 ] 192.168.0.174 /index.php/Home/Index/show/id/7.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000091s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000244s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000366s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /home/www/www.shop.com/Application/Home/Controller/IndexController.class.php 第 69 行.
+SQL: SHOW COLUMNS FROM `goods_category` [ RunTime:0.0009s ]
+SQL: SELECT `id`,`name`,`parent_id`,`level` FROM `goods_category` WHERE ( status>0 ) ORDER BY lft  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `article_category` [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0012s ]
+SQL: SELECT a.`id`,a.`name`,a.`article_category_id` FROM article_category AS ac JOIN article AS a ON ac.`id`=a.`article_category_id` WHERE ac.`is_help`=1; [ RunTime:0.0003s ]
+SQL: SELECT `id`,`name` FROM `article` WHERE `article_category_id` = 6  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `goods` WHERE `id` = 7 AND ( is_on_sale=1 and status>0 ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `goods_gallery` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `goods_gallery` WHERE `id` = 7  [ RunTime:0.0002s ]
+
+[ 2015-11-16T18:14:42+08:00 ] 192.168.0.174 /index.php/Home/Index/show/id/7.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000064s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000315s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000660s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /home/www/www.shop.com/Application/Home/Controller/IndexController.class.php 第 69 行.
+SQL: SHOW COLUMNS FROM `goods_category` [ RunTime:0.0009s ]
+SQL: SELECT `id`,`name`,`parent_id`,`level` FROM `goods_category` WHERE ( status>0 ) ORDER BY lft  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `article_category` [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0007s ]
+SQL: SELECT a.`id`,a.`name`,a.`article_category_id` FROM article_category AS ac JOIN article AS a ON ac.`id`=a.`article_category_id` WHERE ac.`is_help`=1; [ RunTime:0.0004s ]
+SQL: SELECT `id`,`name` FROM `article` WHERE `article_category_id` = 6  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `goods` WHERE `id` = 7 AND ( is_on_sale=1 and status>0 ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `goods_gallery` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `goods_gallery` WHERE `id` = 7  [ RunTime:0.0002s ]
+
+[ 2015-11-16T18:14:42+08:00 ] 192.168.0.174 /index.php/Home/Index/show/id/7.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000014s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000333s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000376s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /home/www/www.shop.com/Application/Home/Controller/IndexController.class.php 第 69 行.
+SQL: SHOW COLUMNS FROM `goods_category` [ RunTime:0.0007s ]
+SQL: SELECT `id`,`name`,`parent_id`,`level` FROM `goods_category` WHERE ( status>0 ) ORDER BY lft  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `article_category` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0011s ]
+SQL: SELECT a.`id`,a.`name`,a.`article_category_id` FROM article_category AS ac JOIN article AS a ON ac.`id`=a.`article_category_id` WHERE ac.`is_help`=1; [ RunTime:0.0003s ]
+SQL: SELECT `id`,`name` FROM `article` WHERE `article_category_id` = 6  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `goods` WHERE `id` = 7 AND ( is_on_sale=1 and status>0 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `goods_gallery` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `goods_gallery` WHERE `id` = 7  [ RunTime:0.0003s ]
+
+[ 2015-11-16T18:14:42+08:00 ] 192.168.0.174 /index.php/Home/Index/show/id/7.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000037s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000417s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000538s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /home/www/www.shop.com/Application/Home/Controller/IndexController.class.php 第 69 行.
+SQL: SHOW COLUMNS FROM `goods_category` [ RunTime:0.0007s ]
+SQL: SELECT `id`,`name`,`parent_id`,`level` FROM `goods_category` WHERE ( status>0 ) ORDER BY lft  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `article_category` [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0006s ]
+SQL: SELECT a.`id`,a.`name`,a.`article_category_id` FROM article_category AS ac JOIN article AS a ON ac.`id`=a.`article_category_id` WHERE ac.`is_help`=1; [ RunTime:0.0004s ]
+SQL: SELECT `id`,`name` FROM `article` WHERE `article_category_id` = 6  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `goods` WHERE `id` = 7 AND ( is_on_sale=1 and status>0 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `goods_gallery` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `goods_gallery` WHERE `id` = 7  [ RunTime:0.0005s ]
+
+[ 2015-11-16T18:15:45+08:00 ] 192.168.0.174 /index.php/Home/Index/show/id/7.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000071s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000417s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000462s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /home/www/www.shop.com/Application/Home/Controller/IndexController.class.php 第 69 行.
+SQL: SHOW COLUMNS FROM `goods_category` [ RunTime:0.0011s ]
+SQL: SELECT `id`,`name`,`parent_id`,`level` FROM `goods_category` WHERE ( status>0 ) ORDER BY lft  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `article_category` [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0007s ]
+SQL: SELECT a.`id`,a.`name`,a.`article_category_id` FROM article_category AS ac JOIN article AS a ON ac.`id`=a.`article_category_id` WHERE ac.`is_help`=1; [ RunTime:0.0003s ]
+SQL: SELECT `id`,`name` FROM `article` WHERE `article_category_id` = 6  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `goods` WHERE `id` = 7 AND ( is_on_sale=1 and status>0 ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `goods_gallery` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `goods_gallery` WHERE `id` = 7  [ RunTime:0.0002s ]
+NOTIC: [2] Invalid argument supplied for foreach() /home/www/www.shop.com/Application/Common/Common/function.php 第 27 行.
+
+[ 2015-11-16T18:16:14+08:00 ] 192.168.0.174 /index.php/Home/Index/show/id/7.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000178s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000236s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000250s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /home/www/www.shop.com/Application/Home/Controller/IndexController.class.php 第 69 行.
+SQL: SHOW COLUMNS FROM `goods_category` [ RunTime:0.0008s ]
+SQL: SELECT `id`,`name`,`parent_id`,`level` FROM `goods_category` WHERE ( status>0 ) ORDER BY lft  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `article_category` [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0011s ]
+SQL: SELECT a.`id`,a.`name`,a.`article_category_id` FROM article_category AS ac JOIN article AS a ON ac.`id`=a.`article_category_id` WHERE ac.`is_help`=1; [ RunTime:0.0003s ]
+SQL: SELECT `id`,`name` FROM `article` WHERE `article_category_id` = 6  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `goods` WHERE `id` = 7 AND ( is_on_sale=1 and status>0 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `goods_gallery` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `goods_gallery` WHERE `goods_id` = 7  [ RunTime:0.0001s ]
+NOTIC: [2] Invalid argument supplied for foreach() /home/www/www.shop.com/Application/Common/Common/function.php 第 27 行.
+
+[ 2015-11-16T18:16:37+08:00 ] 192.168.0.174 /index.php/Home/Index/show/id/7.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000069s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000361s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000410s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /home/www/www.shop.com/Application/Home/Controller/IndexController.class.php 第 67 行.
+SQL: SHOW COLUMNS FROM `goods_category` [ RunTime:0.0008s ]
+SQL: SELECT `id`,`name`,`parent_id`,`level` FROM `goods_category` WHERE ( status>0 ) ORDER BY lft  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `article_category` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0006s ]
+SQL: SELECT a.`id`,a.`name`,a.`article_category_id` FROM article_category AS ac JOIN article AS a ON ac.`id`=a.`article_category_id` WHERE ac.`is_help`=1; [ RunTime:0.0009s ]
+SQL: SELECT `id`,`name` FROM `article` WHERE `article_category_id` = 6  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `goods` WHERE `id` = 7 AND ( is_on_sale=1 and status>0 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `goods_gallery` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `goods_gallery` WHERE `goods_id` = 7  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000483s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000801s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025047s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025240s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000486s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000776s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000415s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000569s ]
+
+[ 2015-11-16T18:16:38+08:00 ] 192.168.0.174 /index.php/Home/Index/show/id/images/preview_l1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000072s ]
+
+[ 2015-11-16T18:17:03+08:00 ] 192.168.0.174 /index.php/Home/Index/show/id/7.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000071s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000420s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000466s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /home/www/www.shop.com/Application/Home/Controller/IndexController.class.php 第 67 行.
+SQL: SHOW COLUMNS FROM `goods_category` [ RunTime:0.0009s ]
+SQL: SELECT `id`,`name`,`parent_id`,`level` FROM `goods_category` WHERE ( status>0 ) ORDER BY lft  [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `article_category` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0013s ]
+SQL: SELECT a.`id`,a.`name`,a.`article_category_id` FROM article_category AS ac JOIN article AS a ON ac.`id`=a.`article_category_id` WHERE ac.`is_help`=1; [ RunTime:0.0004s ]
+SQL: SELECT `id`,`name` FROM `article` WHERE `article_category_id` = 6  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `goods` WHERE `id` = 7 AND ( is_on_sale=1 and status>0 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `goods_gallery` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `goods_gallery` WHERE `goods_id` = 7  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000736s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000823s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025350s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025405s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000148s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000182s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001487s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001558s ]
+
+[ 2015-11-16T18:17:04+08:00 ] 192.168.0.174 /index.php/Home/Index/show/id/images/preview_l1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000071s ]
+
+[ 2015-11-16T18:17:09+08:00 ] 192.168.0.174 /index.php/Home/Index/show/id/7.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000237s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000280s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000322s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /home/www/www.shop.com/Application/Home/Controller/IndexController.class.php 第 67 行.
+SQL: SHOW COLUMNS FROM `goods_category` [ RunTime:0.0019s ]
+SQL: SELECT `id`,`name`,`parent_id`,`level` FROM `goods_category` WHERE ( status>0 ) ORDER BY lft  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `article_category` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0010s ]
+SQL: SELECT a.`id`,a.`name`,a.`article_category_id` FROM article_category AS ac JOIN article AS a ON ac.`id`=a.`article_category_id` WHERE ac.`is_help`=1; [ RunTime:0.0005s ]
+SQL: SELECT `id`,`name` FROM `article` WHERE `article_category_id` = 6  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `goods` WHERE `id` = 7 AND ( is_on_sale=1 and status>0 ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `goods_gallery` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `goods_gallery` WHERE `goods_id` = 7  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000522s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000873s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024107s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024234s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000258s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000376s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000863s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000996s ]
+
+[ 2015-11-16T18:17:09+08:00 ] 192.168.0.174 /index.php/Home/Index/show/id/images/preview_l1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000079s ]
+
+[ 2015-11-16T18:18:53+08:00 ] 192.168.0.174 /index.php/Home/Index/show/id/7.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000107s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000562s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000708s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /home/www/www.shop.com/Application/Home/Controller/IndexController.class.php 第 67 行.
+SQL: SHOW COLUMNS FROM `goods_category` [ RunTime:0.0006s ]
+SQL: SELECT `id`,`name`,`parent_id`,`level` FROM `goods_category` WHERE ( status>0 ) ORDER BY lft  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `article_category` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0006s ]
+SQL: SELECT a.`id`,a.`name`,a.`article_category_id` FROM article_category AS ac JOIN article AS a ON ac.`id`=a.`article_category_id` WHERE ac.`is_help`=1; [ RunTime:0.0008s ]
+SQL: SELECT `id`,`name` FROM `article` WHERE `article_category_id` = 6  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `goods` WHERE `id` = 7 AND ( is_on_sale=1 and status>0 ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `goods_gallery` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `goods_gallery` WHERE `goods_id` = 7  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000319s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000431s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023984s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024103s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000164s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000292s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000818s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001045s ]
+
+[ 2015-11-16T18:18:53+08:00 ] 192.168.0.174 /index.php/Home/Index/show/id/images/preview_l1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000207s ]
+
+[ 2015-11-16T18:20:59+08:00 ] 192.168.0.174 /index.php/Home/Index/show/id/7.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000154s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000362s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000388s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /home/www/www.shop.com/Application/Home/Controller/IndexController.class.php 第 67 行.
+SQL: SHOW COLUMNS FROM `goods_category` [ RunTime:0.0006s ]
+SQL: SELECT `id`,`name`,`parent_id`,`level` FROM `goods_category` WHERE ( status>0 ) ORDER BY lft  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `article_category` [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0006s ]
+SQL: SELECT a.`id`,a.`name`,a.`article_category_id` FROM article_category AS ac JOIN article AS a ON ac.`id`=a.`article_category_id` WHERE ac.`is_help`=1; [ RunTime:0.0009s ]
+SQL: SELECT `id`,`name` FROM `article` WHERE `article_category_id` = 6  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `goods` WHERE `id` = 7 AND ( is_on_sale=1 and status>0 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `goods_gallery` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `goods_gallery` WHERE `goods_id` = 7  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000510s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000660s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025836s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025958s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000207s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000334s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001359s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001581s ]
+
+[ 2015-11-16T18:20:59+08:00 ] 192.168.0.174 /index.php/Home/Index/show/id/images/preview_l1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000107s ]
+
+[ 2015-11-16T18:21:31+08:00 ] 192.168.0.174 /index.php/Home/Index/show/id/7.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000167s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000124s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000170s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /home/www/www.shop.com/Application/Home/Controller/IndexController.class.php 第 67 行.
+SQL: SHOW COLUMNS FROM `goods_category` [ RunTime:0.0007s ]
+SQL: SELECT `id`,`name`,`parent_id`,`level` FROM `goods_category` WHERE ( status>0 ) ORDER BY lft  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `article_category` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0021s ]
+SQL: SELECT a.`id`,a.`name`,a.`article_category_id` FROM article_category AS ac JOIN article AS a ON ac.`id`=a.`article_category_id` WHERE ac.`is_help`=1; [ RunTime:0.0005s ]
+SQL: SELECT `id`,`name` FROM `article` WHERE `article_category_id` = 6  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `goods` WHERE `id` = 7 AND ( is_on_sale=1 and status>0 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `goods_gallery` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `goods_gallery` WHERE `goods_id` = 7  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000484s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000879s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023552s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023829s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000384s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000753s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001542s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001660s ]
+
+[ 2015-11-16T18:21:32+08:00 ] 192.168.0.174 /index.php/Home/Index/show/id/images/preview_l1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000066s ]
+
+[ 2015-11-16T18:21:58+08:00 ] 192.168.0.174 /index.php/Home/Index/show/id/7.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000071s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000348s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000407s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /home/www/www.shop.com/Application/Home/Controller/IndexController.class.php 第 67 行.
+SQL: SHOW COLUMNS FROM `goods_category` [ RunTime:0.0005s ]
+SQL: SELECT `id`,`name`,`parent_id`,`level` FROM `goods_category` WHERE ( status>0 ) ORDER BY lft  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `article_category` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0012s ]
+SQL: SELECT a.`id`,a.`name`,a.`article_category_id` FROM article_category AS ac JOIN article AS a ON ac.`id`=a.`article_category_id` WHERE ac.`is_help`=1; [ RunTime:0.0005s ]
+SQL: SELECT `id`,`name` FROM `article` WHERE `article_category_id` = 6  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `goods` WHERE `id` = 7 AND ( is_on_sale=1 and status>0 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `goods_gallery` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `goods_gallery` WHERE `goods_id` = 7  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000577s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000870s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025790s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026028s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000341s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000498s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000968s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001283s ]
+
+[ 2015-11-16T18:29:28+08:00 ] 192.168.0.174 /index.php/Home/Index/show/id/7.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000122s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000459s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000538s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /home/www/www.shop.com/Application/Home/Controller/IndexController.class.php 第 67 行.
+SQL: SHOW COLUMNS FROM `goods_category` [ RunTime:0.0007s ]
+SQL: SELECT `id`,`name`,`parent_id`,`level` FROM `goods_category` WHERE ( status>0 ) ORDER BY lft  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `article_category` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0011s ]
+SQL: SELECT a.`id`,a.`name`,a.`article_category_id` FROM article_category AS ac JOIN article AS a ON ac.`id`=a.`article_category_id` WHERE ac.`is_help`=1; [ RunTime:0.0002s ]
+SQL: SELECT `id`,`name` FROM `article` WHERE `article_category_id` = 6  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `goods` WHERE `id` = 7 AND ( is_on_sale=1 and status>0 ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `goods_gallery` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `goods_gallery` WHERE `goods_id` = 7  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000372s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000455s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025833s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026103s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000194s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000431s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001017s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001210s ]
+
+[ 2015-11-16T18:30:15+08:00 ] 192.168.0.174 /index.php/Home/Index/show/id/7.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000160s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000151s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000196s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /home/www/www.shop.com/Application/Home/Controller/IndexController.class.php 第 67 行.
+SQL: SHOW COLUMNS FROM `goods_category` [ RunTime:0.0007s ]
+SQL: SELECT `id`,`name`,`parent_id`,`level` FROM `goods_category` WHERE ( status>0 ) ORDER BY lft  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `article_category` [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0012s ]
+SQL: SELECT a.`id`,a.`name`,a.`article_category_id` FROM article_category AS ac JOIN article AS a ON ac.`id`=a.`article_category_id` WHERE ac.`is_help`=1; [ RunTime:0.0006s ]
+SQL: SELECT `id`,`name` FROM `article` WHERE `article_category_id` = 6  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `goods` WHERE `id` = 7 AND ( is_on_sale=1 and status>0 ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `goods_gallery` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `goods_gallery` WHERE `goods_id` = 7  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000564s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000869s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025907s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026134s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000190s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000323s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001036s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001119s ]
+
+[ 2015-11-16T18:31:11+08:00 ] 192.168.0.174 /index.php/Home/Index/show/id/7.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000024s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000474s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000604s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /home/www/www.shop.com/Application/Home/Controller/IndexController.class.php 第 67 行.
+SQL: SHOW COLUMNS FROM `goods_category` [ RunTime:0.0009s ]
+SQL: SELECT `id`,`name`,`parent_id`,`level` FROM `goods_category` WHERE ( status>0 ) ORDER BY lft  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `article_category` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0008s ]
+SQL: SELECT a.`id`,a.`name`,a.`article_category_id` FROM article_category AS ac JOIN article AS a ON ac.`id`=a.`article_category_id` WHERE ac.`is_help`=1; [ RunTime:0.0009s ]
+SQL: SELECT `id`,`name` FROM `article` WHERE `article_category_id` = 6  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `goods` WHERE `id` = 7 AND ( is_on_sale=1 and status>0 ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `goods_gallery` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `goods_gallery` WHERE `goods_id` = 7  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000347s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000663s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025264s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025450s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000294s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000438s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000390s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000958s ]
+
+[ 2015-11-16T18:54:49+08:00 ] 192.168.0.174 /index.php/Home/Index/show/id/7.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000092s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000415s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000465s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /home/www/www.shop.com/Application/Home/Controller/IndexController.class.php 第 67 行.
+SQL: SHOW COLUMNS FROM `goods_category` [ RunTime:0.0008s ]
+SQL: SELECT `id`,`name`,`parent_id`,`level` FROM `goods_category` WHERE ( status>0 ) ORDER BY lft  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `article_category` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0006s ]
+SQL: SELECT a.`id`,a.`name`,a.`article_category_id` FROM article_category AS ac JOIN article AS a ON ac.`id`=a.`article_category_id` WHERE ac.`is_help`=1; [ RunTime:0.0003s ]
+SQL: SELECT `id`,`name` FROM `article` WHERE `article_category_id` = 6  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `goods` WHERE `id` = 7 AND ( is_on_sale=1 and status>0 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `goods_gallery` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `goods_gallery` WHERE `goods_id` = 7  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000342s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000438s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030405s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030492s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001311s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001353s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001240s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001428s ]
+
+[ 2015-11-16T19:06:34+08:00 ] 192.168.0.174 /index.php/Home/Index/show/id/7.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000095s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000318s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000702s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /home/www/www.shop.com/Application/Home/Controller/IndexController.class.php 第 71 行.
+SQL: SHOW COLUMNS FROM `goods_category` [ RunTime:0.0018s ]
+SQL: SELECT `id`,`name`,`parent_id`,`level` FROM `goods_category` WHERE ( status>0 ) ORDER BY lft  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `article_category` [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0011s ]
+SQL: SELECT a.`id`,a.`name`,a.`article_category_id` FROM article_category AS ac JOIN article AS a ON ac.`id`=a.`article_category_id` WHERE ac.`is_help`=1; [ RunTime:0.0004s ]
+SQL: SELECT `id`,`name` FROM `article` WHERE `article_category_id` = 6  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `goods` WHERE `id` = 7 AND ( is_on_sale=1 and status>0 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `goods_gallery` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `goods_gallery` WHERE `goods_id` = 7  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `goods_category`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000487s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000690s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028310s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028374s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000156s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000213s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000435s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000490s ]
+
+[ 2015-11-16T19:28:28+08:00 ] 192.168.0.174 /index.php/Home/Index/show/id/7.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000172s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000233s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000402s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /home/www/www.shop.com/Application/Home/Controller/IndexController.class.php 第 71 行.
+SQL: SHOW COLUMNS FROM `goods_category` [ RunTime:0.0008s ]
+SQL: SELECT `id`,`name`,`parent_id`,`level` FROM `goods_category` WHERE ( status>0 ) ORDER BY lft  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `article_category` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0013s ]
+SQL: SELECT a.`id`,a.`name`,a.`article_category_id` FROM article_category AS ac JOIN article AS a ON ac.`id`=a.`article_category_id` WHERE ac.`is_help`=1; [ RunTime:0.0139s ]
+SQL: SELECT `id`,`name` FROM `article` WHERE `article_category_id` = 6  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `goods` WHERE `id` = 7 AND ( is_on_sale=1 and status>0 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `goods_gallery` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `goods_gallery` WHERE `goods_id` = 7  [ RunTime:0.0002s ]
+SQL: SELECT b.`id`,b.`name` FROM goods_category AS a,goods_category AS b WHERE a.id=34 AND  b.`lft`<=a.`lft` AND b.`rght`>=a.`rght` ORDER BY b.`lft`; [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000440s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000779s ]
+NOTIC: [8] Undefined variable: category /home/www/www.shop.com/Application/Runtime/Cache/Home/ef90aeb0d15d5181851dc046c9941189.php 第 181 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025327s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025469s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000252s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000616s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000787s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000897s ]
+
+[ 2015-11-16T19:29:09+08:00 ] 192.168.0.174 /index.php/Home/Index/show/id/7.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000043s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000364s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000544s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /home/www/www.shop.com/Application/Home/Controller/IndexController.class.php 第 71 行.
+SQL: SHOW COLUMNS FROM `goods_category` [ RunTime:0.0007s ]
+SQL: SELECT `id`,`name`,`parent_id`,`level` FROM `goods_category` WHERE ( status>0 ) ORDER BY lft  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `article_category` [ RunTime:0.0251s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0014s ]
+SQL: SELECT a.`id`,a.`name`,a.`article_category_id` FROM article_category AS ac JOIN article AS a ON ac.`id`=a.`article_category_id` WHERE ac.`is_help`=1; [ RunTime:0.0003s ]
+SQL: SELECT `id`,`name` FROM `article` WHERE `article_category_id` = 6  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `goods` WHERE `id` = 7 AND ( is_on_sale=1 and status>0 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `goods_gallery` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `goods_gallery` WHERE `goods_id` = 7  [ RunTime:0.0003s ]
+SQL: SELECT b.`id`,b.`name` FROM goods_category AS a,goods_category AS b WHERE a.id=34 AND  b.`lft`<=a.`lft` AND b.`rght`>=a.`rght` ORDER BY b.`lft`; [ RunTime:0.0003s ]
+
+[ 2015-11-16T19:30:36+08:00 ] 192.168.0.174 /index.php/Home/Index/show/id/7.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000101s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000494s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /home/www/www.shop.com/Application/Home/Controller/IndexController.class.php 第 71 行.
+SQL: SHOW COLUMNS FROM `goods_category` [ RunTime:0.0007s ]
+SQL: SELECT `id`,`name`,`parent_id`,`level` FROM `goods_category` WHERE ( status>0 ) ORDER BY lft  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `article_category` [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0011s ]
+SQL: SELECT a.`id`,a.`name`,a.`article_category_id` FROM article_category AS ac JOIN article AS a ON ac.`id`=a.`article_category_id` WHERE ac.`is_help`=1; [ RunTime:0.0005s ]
+SQL: SELECT `id`,`name` FROM `article` WHERE `article_category_id` = 6  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `goods` WHERE `id` = 7 AND ( is_on_sale=1 and status>0 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `goods_gallery` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `goods_gallery` WHERE `goods_id` = 7  [ RunTime:0.0001s ]
+SQL: SELECT b.`id`,b.`name` FROM goods_category AS a,goods_category AS b WHERE a.id=34 AND  b.`lft`<=a.`lft` AND b.`rght`>=a.`rght` ORDER BY b.`lft`; [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000355s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000433s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024924s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024999s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000252s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000299s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000263s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000332s ]
+
+[ 2015-11-16T19:31:09+08:00 ] 192.168.0.174 /index.php/Home/Index/show/id/7.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000125s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000203s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000551s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /home/www/www.shop.com/Application/Home/Controller/IndexController.class.php 第 71 行.
+SQL: SHOW COLUMNS FROM `goods_category` [ RunTime:0.0011s ]
+SQL: SELECT `id`,`name`,`parent_id`,`level` FROM `goods_category` WHERE ( status>0 ) ORDER BY lft  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `article_category` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0005s ]
+SQL: SELECT a.`id`,a.`name`,a.`article_category_id` FROM article_category AS ac JOIN article AS a ON ac.`id`=a.`article_category_id` WHERE ac.`is_help`=1; [ RunTime:0.0011s ]
+SQL: SELECT `id`,`name` FROM `article` WHERE `article_category_id` = 6  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `goods` WHERE `id` = 7 AND ( is_on_sale=1 and status>0 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `goods_gallery` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `goods_gallery` WHERE `goods_id` = 7  [ RunTime:0.0005s ]
+SQL: SELECT b.`id`,b.`name` FROM goods_category AS a,goods_category AS b WHERE a.id=34 AND  b.`lft`<=a.`lft` AND b.`rght`>=a.`rght` ORDER BY b.`lft`; [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000616s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001239s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025753s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025877s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000269s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000375s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000416s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000471s ]
+
+[ 2015-11-16T19:40:22+08:00 ] 192.168.0.174 /index.php/Home/Member/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000079s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000406s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000466s ]
+ERR: 非法操作:index
+
+[ 2015-11-16T19:40:48+08:00 ] 192.168.0.174 /index.php/Home/Member/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000078s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000388s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000437s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000145s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000441s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007375s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007519s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000115s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000149s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000242s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000255s ]
+
+[ 2015-11-16T19:40:56+08:00 ] 192.168.0.174 /index.php/Home/Member/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000075s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000384s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000173s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000649s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006771s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006991s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000359s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000449s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000419s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000463s ]
+
+[ 2015-11-16T19:52:44+08:00 ] 192.168.0.174 /index.php/Home/Member/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000173s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000161s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000207s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000173s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000367s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015429s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015475s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000054s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000065s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000410s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000474s ]
+
+[ 2015-11-16T19:53:01+08:00 ] 192.168.0.174 /index.php/Home/Member/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000539s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000668s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000265s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000712s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006252s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006326s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000121s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000154s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000464s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000505s ]
+
+[ 2015-11-16T20:08:05+08:00 ] 192.168.0.174 /index.php/Home/Member/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000210s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000568s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000693s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000181s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009274s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009389s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000237s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000297s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000758s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000852s ]
+
+[ 2015-11-16T20:19:59+08:00 ] 192.168.0.174 /index.php/Home/Member/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000115s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000276s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001579s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001680s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000511s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000865s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009164s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009379s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000254s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000365s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000581s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000752s ]
+
+[ 2015-11-16T20:20:23+08:00 ] 192.168.0.174 /index.php/Home/Member/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000111s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000448s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000502s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000118s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000247s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008192s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008240s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000155s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000192s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000457s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000505s ]
+
+[ 2015-11-16T20:20:26+08:00 ] 192.168.0.174 /index.php/Home/Member/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000123s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000378s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000150s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000325s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008496s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008544s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000140s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000174s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000537s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000570s ]
+
+[ 2015-11-16T20:20:27+08:00 ] 192.168.0.174 /index.php/Home/Member/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000217s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000850s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000934s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000191s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000759s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008453s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008612s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000145s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000179s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000402s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000445s ]
+
+[ 2015-11-16T20:23:46+08:00 ] 192.168.0.174 /index.php/Home/Member/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000106s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000741s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000844s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000143s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000231s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009452s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009520s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000163s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000198s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000391s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000475s ]
+
+[ 2015-11-16T20:33:38+08:00 ] 192.168.0.174 /index.php/Home/Member/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000079s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000641s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000910s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000492s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001059s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009704s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009776s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000161s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000196s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001935s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002062s ]
+
+[ 2015-11-16T20:38:55+08:00 ] 192.168.0.174 /index.php/Home/Member/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000013s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000435s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000608s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000219s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000538s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009115s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009291s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000167s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000240s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000466s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000526s ]
+
+[ 2015-11-16T20:47:13+08:00 ] 192.168.0.174 /index.php/Home/Member/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000076s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000603s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000928s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000267s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000639s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007837s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008068s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000108s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000155s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000467s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000519s ]
+
+[ 2015-11-16T20:47:22+08:00 ] 192.168.0.174 /index.php/Home/Member/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000072s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000492s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000554s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000097s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000163s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007153s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007220s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000182s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000232s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000444s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000577s ]
+
+[ 2015-11-16T20:47:25+08:00 ] 192.168.0.174 /index.php/Home/Member/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000079s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000387s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000464s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000879s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007318s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007426s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000318s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000441s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000576s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000772s ]
+
+[ 2015-11-16T20:47:27+08:00 ] 192.168.0.174 /index.php/Home/Member/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000075s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000125s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000167s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000283s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001306s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007647s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007687s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000158s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000192s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000429s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000505s ]
+
+[ 2015-11-16T20:47:28+08:00 ] 192.168.0.174 /index.php/Home/Member/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000147s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000379s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000427s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000107s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000547s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006511s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006550s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000124s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000164s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000253s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000265s ]
+
+[ 2015-11-16T20:47:32+08:00 ] 192.168.0.174 /index.php/Home/Member/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000070s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000173s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000149s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000180s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000740s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007916s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007982s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000153s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000195s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000268s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000280s ]
+
+[ 2015-11-16T20:48:01+08:00 ] 192.168.0.174 /index.php/Home/Member/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000077s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000545s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000657s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000135s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006177s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006218s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000116s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000150s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000646s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000719s ]
+
+[ 2015-11-16T20:48:40+08:00 ] 192.168.0.174 /index.php/Home/Member/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000200s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000395s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000422s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000253s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000795s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006920s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007120s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000319s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000488s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000678s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000789s ]
+
+[ 2015-11-16T20:55:32+08:00 ] 192.168.0.174 /index.php/Home/Member/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000207s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000587s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000664s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000521s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000900s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013392s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013468s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000177s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000292s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000782s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000919s ]
+
+[ 2015-11-16T21:05:37+08:00 ] 192.168.0.174 /index.php/Home/Member/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000139s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000516s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000707s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000748s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017794s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017940s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000148s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000280s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000604s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000808s ]
+
+[ 2015-11-16T21:06:07+08:00 ] 192.168.0.174 /index.php/Home/Member/check.html?email=sd%401
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000164s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000168s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000194s ]
+
+[ 2015-11-16T21:06:08+08:00 ] 192.168.0.174 /index.php/Home/Member/check.html?email=sd%4016
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000176s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000372s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000426s ]
+
+[ 2015-11-16T21:06:09+08:00 ] 192.168.0.174 /index.php/Home/Member/check.html?email=sd%40163
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000064s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000366s ]
+
+[ 2015-11-16T21:06:09+08:00 ] 192.168.0.174 /index.php/Home/Member/check.html?email=sd%40163.c
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000202s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000218s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000315s ]
+
+[ 2015-11-16T21:06:09+08:00 ] 192.168.0.174 /index.php/Home/Member/check.html?email=sd%40163.co
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000290s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000570s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000641s ]
+
+[ 2015-11-16T21:06:14+08:00 ] 192.168.0.174 /index.php/Home/Member/check.html?email=sd%40163.com
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000285s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000473s ]
+
+[ 2015-11-16T21:06:22+08:00 ] 192.168.0.174 /index.php/Home/Member/check.html?email=sddf%40163.com
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000052s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000270s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000515s ]
+
+[ 2015-11-16T21:06:29+08:00 ] 192.168.0.174 /index.php/Home/Member/check.html?email=tangyang%40163.com
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000095s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001282s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001379s ]
+
+[ 2015-11-16T21:07:40+08:00 ] 192.168.0.174 /index.php/Home/Member/check.html?username=dsfd+
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000105s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000535s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000605s ]
+
+[ 2015-11-16T21:09:58+08:00 ] 192.168.0.174 /index.php/Home/Member/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000099s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000559s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000724s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000436s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000866s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011189s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011307s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000213s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000263s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000759s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001452s ]
+
+[ 2015-11-16T21:10:00+08:00 ] 192.168.0.174 /index.php/Home/Member/check.html?username=fdsf+
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000075s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000395s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000438s ]
+
+[ 2015-11-16T21:10:30+08:00 ] 192.168.0.174 /index.php/Home/Member/check.html?username=fdsf+df
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000114s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000482s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000533s ]
+
+[ 2015-11-16T21:10:30+08:00 ] 192.168.0.174 /index.php/Home/Member/check.html?username=fdsf+dfd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000196s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000213s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000227s ]
+
+[ 2015-11-16T21:10:30+08:00 ] 192.168.0.174 /index.php/Home/Member/check.html?username=fdsf+dfdf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000086s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000448s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000549s ]
+
+[ 2015-11-16T21:12:10+08:00 ] 192.168.0.174 /index.php/Home/Member/check.html?username=tang
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000246s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000582s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000645s ]
+
+[ 2015-11-16T21:12:10+08:00 ] 192.168.0.174 /index.php/Home/Member/check.html?username=tangy
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000070s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000417s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000553s ]
+
+[ 2015-11-16T21:12:10+08:00 ] 192.168.0.174 /index.php/Home/Member/check.html?username=tangyan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000101s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000585s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000707s ]
+
+[ 2015-11-16T21:12:10+08:00 ] 192.168.0.174 /index.php/Home/Member/check.html?username=tangyang
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000092s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000692s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000779s ]
+
+[ 2015-11-16T21:12:53+08:00 ] 192.168.0.174 /index.php/Home/Member/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000242s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000537s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000794s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000438s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000887s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014212s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014395s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000200s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000249s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000681s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000816s ]
+
+[ 2015-11-16T21:12:57+08:00 ] 192.168.0.174 /index.php/Home/Member/check.html?username=df+df
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000072s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000523s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000599s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' /home/www/www.shop.com/Application/Home/Controller/MemberController.class.php 第 18 行.
+
+[ 2015-11-16T21:12:57+08:00 ] 192.168.0.174 /index.php/Home/Member/check.html?username=df+df+
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000070s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000360s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000412s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' /home/www/www.shop.com/Application/Home/Controller/MemberController.class.php 第 18 行.
+
+[ 2015-11-16T21:14:57+08:00 ] 192.168.0.174 /index.php/Home/Member/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000255s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000451s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000518s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000137s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000267s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007375s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007407s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000162s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000197s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000288s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000336s ]
+
+[ 2015-11-16T21:15:00+08:00 ] 192.168.0.174 /index.php/Home/Member/check.html?username=dsfsdf+
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000072s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000529s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000636s ]
+
+[ 2015-11-16T21:15:23+08:00 ] 192.168.0.174 /index.php/Home/Member/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000101s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000464s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000513s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000120s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000318s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010687s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011092s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000343s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000467s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000508s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000862s ]
+
+[ 2015-11-16T21:15:28+08:00 ] 192.168.0.174 /index.php/Home/Member/check.html?username=sdf++dfs+
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000075s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000655s ]
+
+[ 2015-11-16T21:17:09+08:00 ] 192.168.0.174 /index.php/Home/Member/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000197s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000646s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000870s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000248s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000612s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010359s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010575s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000214s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000323s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000609s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000681s ]
+
+[ 2015-11-16T21:17:12+08:00 ] 192.168.0.174 /index.php/Home/Member/check.html?username=dsfdsf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000202s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000307s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000344s ]
+
+[ 2015-11-16T21:17:15+08:00 ] 192.168.0.174 /index.php/Home/Member/check.html?username=dsfdsfdf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000071s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000415s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000444s ]
+
+[ 2015-11-16T21:17:15+08:00 ] 192.168.0.174 /index.php/Home/Member/check.html?username=dsfdsfdfd+
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000096s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000077s ]
+
+[ 2015-11-16T21:21:56+08:00 ] 192.168.0.174 /index.php/Home/Member/check.html?username=sdfsd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000132s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000658s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000793s ]
+
+[ 2015-11-16T21:21:56+08:00 ] 192.168.0.174 /index.php/Home/Member/check.html?username=sdfsdf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000108s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000832s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001076s ]
+
+[ 2015-11-16T21:29:32+08:00 ] 192.168.0.174 /index.php/Home/Member/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000285s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000829s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000401s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000898s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011541s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011686s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000208s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000254s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000610s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000772s ]
+
+[ 2015-11-16T21:29:37+08:00 ] 192.168.0.174 /index.php/Home/Member/check.html?username=tang
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000092s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000522s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000576s ]
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0011s ]
+NOTIC: [2] Missing argument 2 for Think\Model::check(), called in /home/www/www.shop.com/Application/Home/Controller/MemberController.class.php on line 20 and defined /home/www/ThinkPHP/Library/Think/Model.class.php 第 1315 行.
+NOTIC: [8] Undefined variable: rule /home/www/ThinkPHP/Library/Think/Model.class.php 第 1354 行.
+NOTIC: [2] preg_match() expects parameter 2 to be string, array given /home/www/ThinkPHP/Library/Think/Model.class.php 第 1117 行.
+
+[ 2015-11-16T21:29:42+08:00 ] 192.168.0.174 /index.php/Home/Member/check.html?username=tangya
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000221s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000388s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000420s ]
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0009s ]
+NOTIC: [2] Missing argument 2 for Think\Model::check(), called in /home/www/www.shop.com/Application/Home/Controller/MemberController.class.php on line 20 and defined /home/www/ThinkPHP/Library/Think/Model.class.php 第 1315 行.
+NOTIC: [8] Undefined variable: rule /home/www/ThinkPHP/Library/Think/Model.class.php 第 1354 行.
+NOTIC: [2] preg_match() expects parameter 2 to be string, array given /home/www/ThinkPHP/Library/Think/Model.class.php 第 1117 行.
+
+[ 2015-11-16T21:29:42+08:00 ] 192.168.0.174 /index.php/Home/Member/check.html?username=tangyang
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000093s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000509s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000722s ]
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0018s ]
+NOTIC: [2] Missing argument 2 for Think\Model::check(), called in /home/www/www.shop.com/Application/Home/Controller/MemberController.class.php on line 20 and defined /home/www/ThinkPHP/Library/Think/Model.class.php 第 1315 行.
+NOTIC: [8] Undefined variable: rule /home/www/ThinkPHP/Library/Think/Model.class.php 第 1354 行.
+NOTIC: [2] preg_match() expects parameter 2 to be string, array given /home/www/ThinkPHP/Library/Think/Model.class.php 第 1117 行.
+
+[ 2015-11-16T21:29:53+08:00 ] 192.168.0.174 /index.php/Home/Member/check.html?username=tang
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000027s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000463s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000507s ]
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0008s ]
+NOTIC: [2] Missing argument 2 for Think\Model::check(), called in /home/www/www.shop.com/Application/Home/Controller/MemberController.class.php on line 20 and defined /home/www/ThinkPHP/Library/Think/Model.class.php 第 1315 行.
+NOTIC: [8] Undefined variable: rule /home/www/ThinkPHP/Library/Think/Model.class.php 第 1354 行.
+NOTIC: [2] preg_match() expects parameter 2 to be string, array given /home/www/ThinkPHP/Library/Think/Model.class.php 第 1117 行.
+
+[ 2015-11-16T21:29:53+08:00 ] 192.168.0.174 /index.php/Home/Member/check.html?username=tangy
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000072s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000498s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000617s ]
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0008s ]
+NOTIC: [2] Missing argument 2 for Think\Model::check(), called in /home/www/www.shop.com/Application/Home/Controller/MemberController.class.php on line 20 and defined /home/www/ThinkPHP/Library/Think/Model.class.php 第 1315 行.
+NOTIC: [8] Undefined variable: rule /home/www/ThinkPHP/Library/Think/Model.class.php 第 1354 行.
+NOTIC: [2] preg_match() expects parameter 2 to be string, array given /home/www/ThinkPHP/Library/Think/Model.class.php 第 1117 行.
+
+[ 2015-11-16T21:29:54+08:00 ] 192.168.0.174 /index.php/Home/Member/check.html?username=tangyang
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000115s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000322s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000305s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000418s ]
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0012s ]
+NOTIC: [2] Missing argument 2 for Think\Model::check(), called in /home/www/www.shop.com/Application/Home/Controller/MemberController.class.php on line 20 and defined /home/www/ThinkPHP/Library/Think/Model.class.php 第 1315 行.
+NOTIC: [8] Undefined variable: rule /home/www/ThinkPHP/Library/Think/Model.class.php 第 1354 行.
+NOTIC: [2] preg_match() expects parameter 2 to be string, array given /home/www/ThinkPHP/Library/Think/Model.class.php 第 1117 行.
+
+[ 2015-11-16T21:30:14+08:00 ] 192.168.0.174 /index.php/Home/Member/check.html?username=yang
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000091s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000377s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000457s ]
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0009s ]
+NOTIC: [2] Missing argument 2 for Think\Model::check(), called in /home/www/www.shop.com/Application/Home/Controller/MemberController.class.php on line 20 and defined /home/www/ThinkPHP/Library/Think/Model.class.php 第 1315 行.
+NOTIC: [8] Undefined variable: rule /home/www/ThinkPHP/Library/Think/Model.class.php 第 1354 行.
+NOTIC: [2] preg_match() expects parameter 2 to be string, array given /home/www/ThinkPHP/Library/Think/Model.class.php 第 1117 行.
+
+[ 2015-11-16T21:30:14+08:00 ] 192.168.0.174 /index.php/Home/Member/check.html?username=wayang
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000213s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000357s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000400s ]
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0474s ]
+NOTIC: [2] Missing argument 2 for Think\Model::check(), called in /home/www/www.shop.com/Application/Home/Controller/MemberController.class.php on line 20 and defined /home/www/ThinkPHP/Library/Think/Model.class.php 第 1315 行.
+NOTIC: [8] Undefined variable: rule /home/www/ThinkPHP/Library/Think/Model.class.php 第 1354 行.
+NOTIC: [2] preg_match() expects parameter 2 to be string, array given /home/www/ThinkPHP/Library/Think/Model.class.php 第 1117 行.
+
+[ 2015-11-16T21:30:14+08:00 ] 192.168.0.174 /index.php/Home/Member/check.html?username=wangyang
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000090s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000250s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000610s ]
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0010s ]
+NOTIC: [2] Missing argument 2 for Think\Model::check(), called in /home/www/www.shop.com/Application/Home/Controller/MemberController.class.php on line 20 and defined /home/www/ThinkPHP/Library/Think/Model.class.php 第 1315 行.
+NOTIC: [8] Undefined variable: rule /home/www/ThinkPHP/Library/Think/Model.class.php 第 1354 行.
+NOTIC: [2] preg_match() expects parameter 2 to be string, array given /home/www/ThinkPHP/Library/Think/Model.class.php 第 1117 行.
+
+[ 2015-11-16T21:30:19+08:00 ] 192.168.0.174 /index.php/Home/Member/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000107s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000654s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000878s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000187s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001469s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008997s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009098s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000167s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000215s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000527s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000591s ]
+
+[ 2015-11-16T21:30:25+08:00 ] 192.168.0.174 /index.php/Home/Member/check.html?username=wanghong
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000074s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000394s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000437s ]
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0010s ]
+NOTIC: [2] Missing argument 2 for Think\Model::check(), called in /home/www/www.shop.com/Application/Home/Controller/MemberController.class.php on line 20 and defined /home/www/ThinkPHP/Library/Think/Model.class.php 第 1315 行.
+NOTIC: [8] Undefined variable: rule /home/www/ThinkPHP/Library/Think/Model.class.php 第 1354 行.
+NOTIC: [2] preg_match() expects parameter 2 to be string, array given /home/www/ThinkPHP/Library/Think/Model.class.php 第 1117 行.
+
+[ 2015-11-16T21:31:49+08:00 ] 192.168.0.174 /index.php/Home/Member/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000103s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000543s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000674s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000224s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000491s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012132s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012208s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000194s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000243s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000117s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000348s ]
+
+[ 2015-11-16T21:31:53+08:00 ] 192.168.0.174 /index.php/Home/Member/check.html?username=tangyang
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000069s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000440s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000482s ]
+NOTIC: [2048] Declaration of Home\Model\ControllerModel::check() should be compatible with Think\Model::check($value, $rule, $type = 'regex') /home/www/www.shop.com/Application/Home/Model/MemberModel.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0008s ]
+NOTIC: [2] Missing argument 2 for Think\Model::check(), called in /home/www/www.shop.com/Application/Home/Controller/MemberController.class.php on line 20 and defined /home/www/ThinkPHP/Library/Think/Model.class.php 第 1315 行.
+NOTIC: [8] Undefined variable: rule /home/www/ThinkPHP/Library/Think/Model.class.php 第 1354 行.
+NOTIC: [2] preg_match() expects parameter 2 to be string, array given /home/www/ThinkPHP/Library/Think/Model.class.php 第 1117 行.
+
+[ 2015-11-16T21:32:28+08:00 ] 192.168.0.174 /index.php/Home/Member/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000251s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001365s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001460s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000170s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000383s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007607s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007647s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000131s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000169s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000372s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000440s ]
+
+[ 2015-11-16T21:32:32+08:00 ] 192.168.0.174 /index.php/Home/Member/check.html?username=wodf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000107s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000674s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000890s ]
+NOTIC: [2048] Declaration of Home\Model\MemberModel::check() should be compatible with Think\Model::check($value, $rule, $type = 'regex') /home/www/www.shop.com/Application/Home/Model/MemberModel.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `member` WHERE `username` = 'wodf' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2015-11-16T21:32:36+08:00 ] 192.168.0.174 /index.php/Home/Member/check.html?username=tang
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000197s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000163s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000264s ]
+NOTIC: [2048] Declaration of Home\Model\MemberModel::check() should be compatible with Think\Model::check($value, $rule, $type = 'regex') /home/www/www.shop.com/Application/Home/Model/MemberModel.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `member` WHERE `username` = 'tang' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-11-16T21:32:36+08:00 ] 192.168.0.174 /index.php/Home/Member/check.html?username=tangy
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000129s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000580s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000915s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001301s ]
+NOTIC: [2048] Declaration of Home\Model\MemberModel::check() should be compatible with Think\Model::check($value, $rule, $type = 'regex') /home/www/www.shop.com/Application/Home/Model/MemberModel.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `member` WHERE `username` = 'tangy' LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2015-11-16T21:32:36+08:00 ] 192.168.0.174 /index.php/Home/Member/check.html?username=tangyang
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000065s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000202s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000229s ]
+NOTIC: [2048] Declaration of Home\Model\MemberModel::check() should be compatible with Think\Model::check($value, $rule, $type = 'regex') /home/www/www.shop.com/Application/Home/Model/MemberModel.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `member` WHERE `username` = 'tangyang' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2015-11-16T21:32:40+08:00 ] 192.168.0.174 /index.php/Home/Member/check.html?username=tangyan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000164s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000278s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000394s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000450s ]
+NOTIC: [2048] Declaration of Home\Model\MemberModel::check() should be compatible with Think\Model::check($value, $rule, $type = 'regex') /home/www/www.shop.com/Application/Home/Model/MemberModel.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `member` WHERE `username` = 'tangyan' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2015-11-16T21:32:40+08:00 ] 192.168.0.174 /index.php/Home/Member/check.html?username=tangya
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000073s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000144s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000413s ]
+NOTIC: [2048] Declaration of Home\Model\MemberModel::check() should be compatible with Think\Model::check($value, $rule, $type = 'regex') /home/www/www.shop.com/Application/Home/Model/MemberModel.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `member` WHERE `username` = 'tangya' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2015-11-16T21:32:41+08:00 ] 192.168.0.174 /index.php/Home/Member/check.html?username=tangy
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000209s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000223s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000277s ]
+NOTIC: [2048] Declaration of Home\Model\MemberModel::check() should be compatible with Think\Model::check($value, $rule, $type = 'regex') /home/www/www.shop.com/Application/Home/Model/MemberModel.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `member` WHERE `username` = 'tangy' LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2015-11-16T21:32:41+08:00 ] 192.168.0.174 /index.php/Home/Member/check.html?username=tang
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000191s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000475s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000493s ]
+NOTIC: [2048] Declaration of Home\Model\MemberModel::check() should be compatible with Think\Model::check($value, $rule, $type = 'regex') /home/www/www.shop.com/Application/Home/Model/MemberModel.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `member` WHERE `username` = 'tang' LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2015-11-16T21:38:22+08:00 ] 192.168.0.174 /index.php/Home/Member/check.html?username=tangy
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000360s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000431s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000503s ]
+NOTIC: [2048] Declaration of Home\Model\MemberModel::check() should be compatible with Think\Model::check($value, $rule, $type = 'regex') /home/www/www.shop.com/Application/Home/Model/MemberModel.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `member` WHERE `username` = 'tangy' LIMIT 1   [ RunTime:0.0014s ]
+
+[ 2015-11-16T21:38:22+08:00 ] 192.168.0.174 /index.php/Home/Member/check.html?username=tangyan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000159s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000281s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000496s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000568s ]
+NOTIC: [2048] Declaration of Home\Model\MemberModel::check() should be compatible with Think\Model::check($value, $rule, $type = 'regex') /home/www/www.shop.com/Application/Home/Model/MemberModel.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `member` WHERE `username` = 'tangyan' LIMIT 1   [ RunTime:0.0015s ]
+
+[ 2015-11-16T21:38:22+08:00 ] 192.168.0.174 /index.php/Home/Member/check.html?username=tangyang
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000310s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001211s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001486s ]
+NOTIC: [2048] Declaration of Home\Model\MemberModel::check() should be compatible with Think\Model::check($value, $rule, $type = 'regex') /home/www/www.shop.com/Application/Home/Model/MemberModel.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `member` WHERE `username` = 'tangyang' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-11-16T21:38:34+08:00 ] 192.168.0.174 /index.php/Home/Member/check.html?email=wo%40162.com
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000124s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000680s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000787s ]
+NOTIC: [2048] Declaration of Home\Model\MemberModel::check() should be compatible with Think\Model::check($value, $rule, $type = 'regex') /home/www/www.shop.com/Application/Home/Model/MemberModel.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `member` WHERE `email` = 'wo@162.com' LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2015-11-16T21:40:25+08:00 ] 192.168.0.174 /index.php/Home/Member/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000100s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000605s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000778s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000576s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000658s ]
+
+[ 2015-11-16T21:42:41+08:00 ] 192.168.0.174 /index.php/Home/Member/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000162s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000577s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000704s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000447s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000678s ]
+
+[ 2015-11-16T21:43:02+08:00 ] 192.168.0.174 /index.php/Home/Member/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000076s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000486s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000536s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000503s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000565s ]
+
+[ 2015-11-16T21:43:04+08:00 ] 192.168.0.174 /index.php/Home/Member/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000096s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000161s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000496s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000458s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000670s ]
+
+[ 2015-11-16T21:43:05+08:00 ] 192.168.0.174 /index.php/Home/Member/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000211s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000508s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000571s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000598s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000943s ]
+
+[ 2015-11-16T21:43:05+08:00 ] 192.168.0.174 /index.php/Home/Member/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000082s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000262s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000477s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000526s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000440s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000796s ]
+
+[ 2015-11-16T21:43:05+08:00 ] 192.168.0.174 /index.php/Home/Member/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000260s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000497s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000560s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000583s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000729s ]
+
+[ 2015-11-16T21:43:12+08:00 ] 192.168.0.174 /index.php/Home/Member/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000075s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000494s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000560s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000570s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000755s ]
+
+[ 2015-11-16T21:43:13+08:00 ] 192.168.0.174 /index.php/Home/Member/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000102s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000161s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000357s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000397s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000522s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000699s ]
+
+[ 2015-11-16T21:43:15+08:00 ] 192.168.0.174 /index.php/Home/Member/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000115s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000767s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001222s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002041s ]
+ERR: 非法操作:index
+
+[ 2015-11-16T21:43:20+08:00 ] 192.168.0.174 /index.php/Home/Member/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000361s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000339s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000388s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000365s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000397s ]
+
+[ 2015-11-16T21:43:24+08:00 ] 192.168.0.174 /index.php/Home/Member/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000144s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000563s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000603s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000333s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000747s ]
+
+[ 2015-11-16T21:43:30+08:00 ] 192.168.0.174 /index.php/Home/Member/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000111s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000558s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000492s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000550s ]
+
+[ 2015-11-16T21:44:22+08:00 ] 192.168.0.174 /index.php/Home/Member/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000229s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000197s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000254s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000085s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000382s ]
+
+[ 2015-11-16T21:44:25+08:00 ] 192.168.0.174 /index.php/Home/Member/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000093s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000400s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000694s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000251s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000840s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009578s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009706s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000099s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000115s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001133s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001257s ]
+
+[ 2015-11-16T21:44:26+08:00 ] 192.168.0.174 /index.php/Home/Member/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000125s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000553s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000624s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000769s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001439s ]
+
+[ 2015-11-16T21:44:27+08:00 ] 192.168.0.174 /index.php/Home/Member/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000072s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000503s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000548s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000493s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000578s ]
+
+[ 2015-11-16T21:46:11+08:00 ] 192.168.0.174 /index.php/Home/Member/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000206s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000449s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000557s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000182s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000741s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016547s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016692s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000237s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000297s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000493s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000694s ]
+
+[ 2015-11-16T21:46:19+08:00 ] 192.168.0.174 /index.php/Home/Member/check.html?username=tang
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000139s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000233s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000286s ]
+NOTIC: [2048] Declaration of Home\Model\MemberModel::check() should be compatible with Think\Model::check($value, $rule, $type = 'regex') /home/www/www.shop.com/Application/Home/Model/MemberModel.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `member` WHERE `username` = 'tang' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2015-11-16T21:46:20+08:00 ] 192.168.0.174 /index.php/Home/Member/check.html?username=tangy
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000073s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000331s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000361s ]
+NOTIC: [2048] Declaration of Home\Model\MemberModel::check() should be compatible with Think\Model::check($value, $rule, $type = 'regex') /home/www/www.shop.com/Application/Home/Model/MemberModel.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `member` WHERE `username` = 'tangy' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2015-11-16T21:46:20+08:00 ] 192.168.0.174 /index.php/Home/Member/check.html?username=tangyna
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000135s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000392s ]
+NOTIC: [2048] Declaration of Home\Model\MemberModel::check() should be compatible with Think\Model::check($value, $rule, $type = 'regex') /home/www/www.shop.com/Application/Home/Model/MemberModel.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `member` WHERE `username` = 'tangyna' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2015-11-16T21:46:20+08:00 ] 192.168.0.174 /index.php/Home/Member/check.html?username=tangynag
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000068s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000364s ]
+NOTIC: [2048] Declaration of Home\Model\MemberModel::check() should be compatible with Think\Model::check($value, $rule, $type = 'regex') /home/www/www.shop.com/Application/Home/Model/MemberModel.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `member` WHERE `username` = 'tangynag' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2015-11-16T21:46:22+08:00 ] 192.168.0.174 /index.php/Home/Member/check.html?username=tangyna
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000277s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000619s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000714s ]
+NOTIC: [2048] Declaration of Home\Model\MemberModel::check() should be compatible with Think\Model::check($value, $rule, $type = 'regex') /home/www/www.shop.com/Application/Home/Model/MemberModel.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `member` WHERE `username` = 'tangyna' LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2015-11-16T21:46:22+08:00 ] 192.168.0.174 /index.php/Home/Member/check.html?username=tangyn
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000193s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000195s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000315s ]
+NOTIC: [2048] Declaration of Home\Model\MemberModel::check() should be compatible with Think\Model::check($value, $rule, $type = 'regex') /home/www/www.shop.com/Application/Home/Model/MemberModel.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `member` WHERE `username` = 'tangyn' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2015-11-16T21:46:22+08:00 ] 192.168.0.174 /index.php/Home/Member/check.html?username=tangy
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000232s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000647s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000786s ]
+NOTIC: [2048] Declaration of Home\Model\MemberModel::check() should be compatible with Think\Model::check($value, $rule, $type = 'regex') /home/www/www.shop.com/Application/Home/Model/MemberModel.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `member` WHERE `username` = 'tangy' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2015-11-16T21:46:22+08:00 ] 192.168.0.174 /index.php/Home/Member/check.html?username=tangyan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000109s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000917s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000994s ]
+NOTIC: [2048] Declaration of Home\Model\MemberModel::check() should be compatible with Think\Model::check($value, $rule, $type = 'regex') /home/www/www.shop.com/Application/Home/Model/MemberModel.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `member` WHERE `username` = 'tangyan' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2015-11-16T21:46:23+08:00 ] 192.168.0.174 /index.php/Home/Member/check.html?username=tangyang
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000085s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000521s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000574s ]
+NOTIC: [2048] Declaration of Home\Model\MemberModel::check() should be compatible with Think\Model::check($value, $rule, $type = 'regex') /home/www/www.shop.com/Application/Home/Model/MemberModel.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `member` WHERE `username` = 'tangyang' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2015-11-16T21:46:28+08:00 ] 192.168.0.174 /index.php/Home/Member/check.html?email=dianzi%401
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000095s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000549s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000618s ]
+NOTIC: [2048] Declaration of Home\Model\MemberModel::check() should be compatible with Think\Model::check($value, $rule, $type = 'regex') /home/www/www.shop.com/Application/Home/Model/MemberModel.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `member` WHERE `email` = 'dianzi@1' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2015-11-16T21:46:29+08:00 ] 192.168.0.174 /index.php/Home/Member/check.html?email=dianzi%4016
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000097s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000477s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000511s ]
+NOTIC: [2048] Declaration of Home\Model\MemberModel::check() should be compatible with Think\Model::check($value, $rule, $type = 'regex') /home/www/www.shop.com/Application/Home/Model/MemberModel.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `member` WHERE `email` = 'dianzi@16' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-11-16T21:46:30+08:00 ] 192.168.0.174 /index.php/Home/Member/check.html?email=dianzi%40163
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000112s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000552s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000603s ]
+NOTIC: [2048] Declaration of Home\Model\MemberModel::check() should be compatible with Think\Model::check($value, $rule, $type = 'regex') /home/www/www.shop.com/Application/Home/Model/MemberModel.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `member` WHERE `email` = 'dianzi@163' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2015-11-16T21:46:30+08:00 ] 192.168.0.174 /index.php/Home/Member/check.html?email=dianzi%40163.c
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000080s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000558s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000676s ]
+NOTIC: [2048] Declaration of Home\Model\MemberModel::check() should be compatible with Think\Model::check($value, $rule, $type = 'regex') /home/www/www.shop.com/Application/Home/Model/MemberModel.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `member` WHERE `email` = 'dianzi@163.c' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2015-11-16T21:46:31+08:00 ] 192.168.0.174 /index.php/Home/Member/check.html?email=dianzi%40163.co
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000201s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000154s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000268s ]
+NOTIC: [2048] Declaration of Home\Model\MemberModel::check() should be compatible with Think\Model::check($value, $rule, $type = 'regex') /home/www/www.shop.com/Application/Home/Model/MemberModel.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `member` WHERE `email` = 'dianzi@163.co' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2015-11-16T21:46:31+08:00 ] 192.168.0.174 /index.php/Home/Member/check.html?email=dianzi%40163.com
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000273s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000474s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000524s ]
+NOTIC: [2048] Declaration of Home\Model\MemberModel::check() should be compatible with Think\Model::check($value, $rule, $type = 'regex') /home/www/www.shop.com/Application/Home/Model/MemberModel.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `member` WHERE `email` = 'dianzi@163.com' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2015-11-16T21:46:43+08:00 ] 192.168.0.174 /index.php/Home/Member/regist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000091s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000627s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000591s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000678s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000710s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000914s ]
+
+[ 2015-11-16T21:47:53+08:00 ] 192.168.0.174 /index.php/Home/Member/check.html?username=tangyang
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000113s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000521s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000588s ]
+NOTIC: [2048] Declaration of Home\Model\MemberModel::check() should be compatible with Think\Model::check($value, $rule, $type = 'regex') /home/www/www.shop.com/Application/Home/Model/MemberModel.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `member` WHERE `username` = 'tangyang' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2015-11-16T21:47:53+08:00 ] 192.168.0.174 /index.php/Home/Member/check.html?email=dianzi%40163.com
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000230s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001714s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001871s ]
+NOTIC: [2048] Declaration of Home\Model\MemberModel::check() should be compatible with Think\Model::check($value, $rule, $type = 'regex') /home/www/www.shop.com/Application/Home/Model/MemberModel.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `member` WHERE `email` = 'dianzi@163.com' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2015-11-16T21:47:53+08:00 ] 192.168.0.174 /index.php/Home/Member/regist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000090s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000933s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000488s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000548s ]
+
+[ 2015-11-16T22:03:45+08:00 ] 192.168.0.174 /index.php/Home/Member/check.html?email=dianzi%40163.com
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000099s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000596s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000657s ]
+NOTIC: [2048] Declaration of Home\Model\MemberModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/www.shop.com/Application/Home/Model/MemberModel.class.php 第 16 行.
+NOTIC: [2048] Declaration of Home\Model\MemberModel::check() should be compatible with Think\Model::check($value, $rule, $type = 'regex') /home/www/www.shop.com/Application/Home/Model/MemberModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `member` WHERE `email` = 'dianzi@163.com' LIMIT 1   [ RunTime:0.0011s ]
+
+[ 2015-11-16T22:03:45+08:00 ] 192.168.0.174 /index.php/Home/Member/check.html?username=tangyang
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000094s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000621s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000689s ]
+NOTIC: [2048] Declaration of Home\Model\MemberModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/www.shop.com/Application/Home/Model/MemberModel.class.php 第 16 行.
+NOTIC: [2048] Declaration of Home\Model\MemberModel::check() should be compatible with Think\Model::check($value, $rule, $type = 'regex') /home/www/www.shop.com/Application/Home/Model/MemberModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `member` WHERE `username` = 'tangyang' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2015-11-16T22:03:45+08:00 ] 192.168.0.174 /index.php/Home/Member/regist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000238s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000825s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001157s ]
+NOTIC: [2048] Declaration of Home\Model\MemberModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/www.shop.com/Application/Home/Model/MemberModel.class.php 第 16 行.
+NOTIC: [2048] Declaration of Home\Model\MemberModel::check() should be compatible with Think\Model::check($value, $rule, $type = 'regex') /home/www/www.shop.com/Application/Home/Model/MemberModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0018s ]
+NOTIC: [8] Undefined index: validate /home/www/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /home/www/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+
+[ 2015-11-16T22:11:15+08:00 ] 192.168.0.174 /index.php/Home/Member/regist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000082s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000441s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000526s ]
+NOTIC: [2048] Declaration of Home\Model\MemberModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/www.shop.com/Application/Home/Model/MemberModel.class.php 第 16 行.
+NOTIC: [2048] Declaration of Home\Model\MemberModel::check() should be compatible with Think\Model::check($value, $rule, $type = 'regex') /home/www/www.shop.com/Application/Home/Model/MemberModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0013s ]
+NOTIC: [8] Undefined index: validate /home/www/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /home/www/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `member` (`username`,`email`,`password`,`salt`,`add_time`) VALUES ('tangyang','dianzi@163.com','6cb3edee4fa322649e4294d5a73c4217','pnzMNJ','1447683075') [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000319s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000571s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010390s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010706s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000245s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000360s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000411s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000479s ]
+
+[ 2015-11-16T22:11:16+08:00 ] 192.168.0.174 /index.php/Home/Member/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000200s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000400s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000460s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000158s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000313s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010032s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010082s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000151s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000184s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000524s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000587s ]
+
+[ 2015-11-16T22:11:24+08:00 ] 192.168.0.174 /index.php/Home/Member/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000256s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000380s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000433s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000280s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000646s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008720s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008901s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000223s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000377s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000400s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000490s ]
+
+[ 2015-11-16T22:11:42+08:00 ] 192.168.0.174 /index.php/Home/Member/check.html?username=test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000096s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000454s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000509s ]
+NOTIC: [2048] Declaration of Home\Model\MemberModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/www.shop.com/Application/Home/Model/MemberModel.class.php 第 16 行.
+NOTIC: [2048] Declaration of Home\Model\MemberModel::check() should be compatible with Think\Model::check($value, $rule, $type = 'regex') /home/www/www.shop.com/Application/Home/Model/MemberModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `member` WHERE `username` = 'test' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2015-11-16T22:11:49+08:00 ] 192.168.0.174 /index.php/Home/Member/check.html?email=test%40163.com
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000068s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000456s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000505s ]
+NOTIC: [2048] Declaration of Home\Model\MemberModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/www.shop.com/Application/Home/Model/MemberModel.class.php 第 16 行.
+NOTIC: [2048] Declaration of Home\Model\MemberModel::check() should be compatible with Think\Model::check($value, $rule, $type = 'regex') /home/www/www.shop.com/Application/Home/Model/MemberModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `member` WHERE `email` = 'test@163.com' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2015-11-16T22:12:04+08:00 ] 192.168.0.174 /index.php/Home/Member/regist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000102s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000465s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001102s ]
+NOTIC: [2048] Declaration of Home\Model\MemberModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/www.shop.com/Application/Home/Model/MemberModel.class.php 第 16 行.
+NOTIC: [2048] Declaration of Home\Model\MemberModel::check() should be compatible with Think\Model::check($value, $rule, $type = 'regex') /home/www/www.shop.com/Application/Home/Model/MemberModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0015s ]
+NOTIC: [8] Undefined index: validate /home/www/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /home/www/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `member` (`username`,`email`,`password`,`salt`,`add_time`) VALUES ('test','test@163.com','1b6161909e5d0078b53e8fea7fa0dac1','YrJdBO','1447683124') [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000232s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000802s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008401s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008526s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000193s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000238s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000461s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000619s ]
+
+[ 2015-11-16T22:12:05+08:00 ] 192.168.0.174 /index.php/Home/Member/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000235s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002309s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002783s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000240s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000617s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010379s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010569s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000194s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000276s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000564s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000625s ]
+
+[ 2015-11-16T22:12:23+08:00 ] 192.168.0.174 /index.php/Home/Member/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000180s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000709s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000838s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000467s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000861s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012849s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013027s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000338s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000441s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000503s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000521s ]
+

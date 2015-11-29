@@ -1,0 +1,55 @@
+<extend name="Common:index"/>
+<block name="CSS">
+    <link rel="stylesheet" href="__TREEGRID__/css/jquery.treegrid.css">
+</block>
+<block name="content">
+    <div class="list-div" id="listDiv">
+        <table cellpadding="3" cellspacing="1" class="tree">
+            <tr>
+                <th>权限名称</th>
+<th>权限的URL</th>
+<th>简介</th>
+<th>状态</th>
+<th>排序</th>
+                <th>操作</th>
+            </tr>
+            <!-- 循环输出-->
+            <volist name="rows" id="row">
+                <tr class="treegrid-{$row['id']} <if condition='$row.level neq 1'>treegrid-parent-{$row['parent_id']}</if>">
+                    <td class="first-cell">
+                        <span>{$row['name']}</span>
+                    </td>
+                                        
+                    <td class="first-cell" align="center">
+                        <span>{$row['url']}</span>
+                    </td>
+                                        
+                    <td class="first-cell" align="center">
+                        <span>{$row['intro']}</span>
+                    </td>
+                                                            <td align="center"><a class="ajax_get"
+                                          href="{:U('changeStatus',array('id'=>$row['id'],'status'=>1-$row['status']))}"><img
+                                    src="__IMAGES__/{$row['status']}.gif"/></a></td>
+                                                     
+                    <td class="first-cell" align="center">
+                        <span>{$row['sort']}</span>
+                    </td>
+                    
+                    <td align="center">
+                        <a href="{:U('edit',array(id=>$row['id']))}" title="编辑">编辑</a>
+                        <a href="{:U('changeStatus',array(id=>$row['id']))}" class="ajax_get" title="移除">移除</a>
+                    </td>
+                </tr>
+            </volist>
+        </table>
+    </div>
+</block>
+<block name="JS">
+    <script src="__TREEGRID__/jquery-1.11.2.js"></script>
+    <script type="text/javascript" src="__TREEGRID__/js/jquery.treegrid.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('.tree').treegrid();
+        });
+    </script>
+</block>

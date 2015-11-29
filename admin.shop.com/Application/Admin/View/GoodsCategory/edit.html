@@ -1,0 +1,111 @@
+<extend name="Common:edit"/>
+<block name="CSS">
+    <link rel="stylesheet" href="__ZTREE_V3__/css/zTreeStyle/zTreeStyle.css" type="text/css">
+</block>
+<block name="content">
+    <div class="main-div">
+        <form method="post" action="{:U()}" enctype="multipart/form-data">
+            <table cellspacing="1" cellpadding="3" width="100%">
+                <tr>
+                    <td class='label'>名称</td>
+                    <td>
+                        <input type='text' name='name' maxlength='60' value='{$name}'/>
+                        <span class='require-field'>*</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class='label'>父分类</td>
+                    <td>
+                        <input type='text' class="parent_text" disabled="disabled" maxlength='60' value='默认为顶级分类'/>
+                        <input type='hidden' class="parent_id" name='parent_id' maxlength='60' value='{$parent_id}'/>
+                        <span class='require-field'>*</span>
+
+                        <div style="border: 1px solid gainsboro;width: 245px;">
+                            <ul id="tree" class="ztree" style="width:260px; overflow:auto;"></ul>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td class='label'>简介</td>
+                    <td>
+                        <textarea name='intro' cols='60' rows='4'>{$intro}</textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td class='label'>状态</td>
+                    <td><input type='radio' name='status' class='box' value='1'/> 是<input type='radio' name='status'
+                                                                                          class='box' value='0'/> 否
+                    </td>
+                </tr>
+                <tr>
+                    <td class='label'>排序</td>
+                    <td>
+                        <input type='text' name='sort' maxlength='60' value='{$sort}'/>
+                        <span class='require-field'>*</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center"><br/>
+                        <input type="hidden" name="id" value="{$id}"/>
+                        <input type="submit" class="button ajax_post" value=" 确定 "/>
+                        <input type="reset" class="button" value=" 重置 "/>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</block>
+<block name="JS">
+    <script type="text/javascript" src="__ZTREE_V3__/js/jquery-1.4.4.min.js"></script>
+    <script type="text/javascript" src="__ZTREE_V3__/js/jquery.ztree.core-3.5.js"></script>
+    <SCRIPT type="text/javascript">
+        $(function () {
+            var zTree;
+
+
+            var setting = {
+                view: {
+                    dblClickExpand: false,
+                    showLine: true,
+                    selectedMulti: false,
+                },
+                data: {
+                    simpleData: {
+                        enable: true,
+                        idKey: "id",
+                        pIdKey: "parent_id",
+                        rootPId: ""
+                    }
+                },
+
+                callback: {
+                    onClick: zTreeOnClick
+                }
+            };
+
+            var zNodes = {$rows};
+
+
+            var t = $("#tree");
+            t = $.fn.zTree.init(t, setting, zNodes);
+            t.expandAll(true);
+
+            function zTreeOnClick(event, treeId, treeNode) {
+                $(".parent_text").val(treeNode.name);
+                $(".parent_id").val(treeNode.id);
+            };
+
+            <notempty name='id'>
+            var parent_id={$parent_id};
+            if (parent_id) {
+                var node = t.getNodeByParam("id",parent_id);
+                t.selectNode(node);
+                $(".parent_text").val(node.name);
+            }
+            </notempty>
+
+        })
+
+
+    </SCRIPT>
+</block>

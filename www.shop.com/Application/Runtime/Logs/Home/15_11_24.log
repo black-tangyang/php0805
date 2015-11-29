@@ -1,0 +1,550 @@
+[ 2015-11-24T02:09:39+08:00 ] 172.20.10.4 /Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000128s ]
+INFO: [ app_begin ] --START--
+
+[ 2015-11-24T02:09:44+08:00 ] 172.20.10.4 /index.php/Home/Index/getUserName.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000151s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000593s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000662s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /home/www/www.shop.com/Application/Home/Controller/IndexController.class.php 第 114 行.
+INFO: [ action_begin ] --START--
+NOTIC: [2] Missing argument 1 for login(), called in /home/www/www.shop.com/Application/Common/Common/function.php on line 77 and defined /home/www/www.shop.com/Application/Common/Common/function.php 第 49 行.
+NOTIC: [8] Undefined variable: result /home/www/www.shop.com/Application/Common/Common/function.php 第 50 行.
+INFO: Run \Home\Behavior\SetMemberIdBehavior [ RunTime:0.075660s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.075702s ]
+SQL: SHOW COLUMNS FROM `goods_category` [ RunTime:0.1053s ]
+SQL: SELECT `id`,`name`,`parent_id`,`level` FROM `goods_category` WHERE ( status>0 ) ORDER BY lft  [ RunTime:0.0211s ]
+SQL: SHOW COLUMNS FROM `article_category` [ RunTime:0.0164s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0136s ]
+SQL: SELECT a.`id`,a.`name`,a.`article_category_id` FROM article_category AS ac JOIN article AS a ON ac.`id`=a.`article_category_id` WHERE ac.`is_help`=1; [ RunTime:0.0153s ]
+SQL: SELECT `id`,`name` FROM `article` WHERE `article_category_id` = 6  [ RunTime:0.0003s ]
+NOTIC: [2] Missing argument 1 for login(), called in /home/www/www.shop.com/Application/Home/Controller/IndexController.class.php on line 78 and defined /home/www/www.shop.com/Application/Common/Common/function.php 第 49 行.
+NOTIC: [8] Undefined variable: result /home/www/www.shop.com/Application/Common/Common/function.php 第 50 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008736s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008809s ]
+
+[ 2015-11-24T02:09:49+08:00 ] 172.20.10.4 /index.php/Home/ShoppingCar/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000117s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000432s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000705s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000898s ]
+INFO: [ action_begin ] --START--
+NOTIC: [2] Missing argument 1 for login(), called in /home/www/www.shop.com/Application/Common/Common/function.php on line 77 and defined /home/www/www.shop.com/Application/Common/Common/function.php 第 49 行.
+NOTIC: [8] Undefined variable: result /home/www/www.shop.com/Application/Common/Common/function.php 第 50 行.
+INFO: Run \Home\Behavior\SetMemberIdBehavior [ RunTime:0.000484s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.000719s ]
+NOTIC: [2048] Declaration of Home\Model\ShoppingCarModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/www.shop.com/Application/Home/Model/ShoppingCarModel.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `shopping_car` [ RunTime:0.0673s ]
+NOTIC: [2] Missing argument 1 for login(), called in /home/www/www.shop.com/Application/Common/Common/function.php on line 77 and defined /home/www/www.shop.com/Application/Common/Common/function.php 第 49 行.
+NOTIC: [8] Undefined variable: result /home/www/www.shop.com/Application/Common/Common/function.php 第 50 行.
+NOTIC: [2] Invalid argument supplied for foreach() /home/www/www.shop.com/Application/Home/Model/ShoppingCarModel.class.php 第 116 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.020455s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.020903s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.278176s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.278262s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.013658s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013964s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000717s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000814s ]
+
+[ 2015-11-24T02:09:55+08:00 ] 172.20.10.4 /index.php/Home/OrderInfo/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000032s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000440s ]
+INFO: [ action_begin ] --START--
+NOTIC: [2] Missing argument 1 for login(), called in /home/www/www.shop.com/Application/Common/Common/function.php on line 77 and defined /home/www/www.shop.com/Application/Common/Common/function.php 第 49 行.
+NOTIC: [8] Undefined variable: result /home/www/www.shop.com/Application/Common/Common/function.php 第 50 行.
+INFO: Run \Home\Behavior\SetMemberIdBehavior [ RunTime:0.000312s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.000499s ]
+NOTIC: [2] Missing argument 1 for login(), called in /home/www/www.shop.com/Application/Common/Common/function.php on line 77 and defined /home/www/www.shop.com/Application/Common/Common/function.php 第 49 行.
+NOTIC: [8] Undefined variable: result /home/www/www.shop.com/Application/Common/Common/function.php 第 50 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000179s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000424s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015167s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015210s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000246s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000317s ]
+
+[ 2015-11-24T02:09:58+08:00 ] 172.20.10.4 /index.php/Home/Member/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000166s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000542s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000654s ]
+INFO: [ action_begin ] --START--
+NOTIC: [2] Missing argument 1 for login(), called in /home/www/www.shop.com/Application/Common/Common/function.php on line 77 and defined /home/www/www.shop.com/Application/Common/Common/function.php 第 49 行.
+NOTIC: [8] Undefined variable: result /home/www/www.shop.com/Application/Common/Common/function.php 第 50 行.
+INFO: Run \Home\Behavior\SetMemberIdBehavior [ RunTime:0.000304s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.000393s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000298s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000789s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007735s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007879s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000237s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000367s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000714s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000771s ]
+
+[ 2015-11-24T02:10:03+08:00 ] 172.20.10.4 /index.php/Home/Member/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000169s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001790s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002149s ]
+INFO: [ action_begin ] --START--
+NOTIC: [2] Missing argument 1 for login(), called in /home/www/www.shop.com/Application/Common/Common/function.php on line 77 and defined /home/www/www.shop.com/Application/Common/Common/function.php 第 49 行.
+NOTIC: [8] Undefined variable: result /home/www/www.shop.com/Application/Common/Common/function.php 第 50 行.
+INFO: Run \Home\Behavior\SetMemberIdBehavior [ RunTime:0.000250s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.000476s ]
+NOTIC: [2048] Declaration of Home\Model\MemberModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/www.shop.com/Application/Home/Model/MemberModel.class.php 第 16 行.
+NOTIC: [2048] Declaration of Home\Model\MemberModel::check() should be compatible with Think\Model::check($value, $rule, $type = 'regex') /home/www/www.shop.com/Application/Home/Model/MemberModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0900s ]
+SQL: SELECT * FROM `member` WHERE `username` = 'tangtest' LIMIT 1   [ RunTime:0.1422s ]
+NOTIC: [2048] Declaration of Home\Model\ShoppingCarModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/www.shop.com/Application/Home/Model/ShoppingCarModel.class.php 第 123 行.
+SQL: SHOW COLUMNS FROM `shopping_car` [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000263s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000799s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006123s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006187s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000154s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000188s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000401s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000444s ]
+
+[ 2015-11-24T02:10:05+08:00 ] 172.20.10.4 /index.php/Home/OrderInfo/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000148s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001396s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001517s ]
+INFO: [ action_begin ] --START--
+NOTIC: [2] Missing argument 1 for login(), called in /home/www/www.shop.com/Application/Common/Common/function.php on line 77 and defined /home/www/www.shop.com/Application/Common/Common/function.php 第 49 行.
+NOTIC: [8] Undefined variable: result /home/www/www.shop.com/Application/Common/Common/function.php 第 50 行.
+NOTIC: [2] Missing argument 1 for login(), called in /home/www/www.shop.com/Application/Home/Behavior/SetMemberIdBehavior.class.php on line 23 and defined /home/www/www.shop.com/Application/Common/Common/function.php 第 49 行.
+NOTIC: [8] Undefined variable: result /home/www/www.shop.com/Application/Common/Common/function.php 第 50 行.
+INFO: Run \Home\Behavior\SetMemberIdBehavior [ RunTime:0.000038s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.000106s ]
+NOTIC: [2] Missing argument 1 for login(), called in /home/www/www.shop.com/Application/Common/Common/function.php on line 77 and defined /home/www/www.shop.com/Application/Common/Common/function.php 第 49 行.
+NOTIC: [8] Undefined variable: result /home/www/www.shop.com/Application/Common/Common/function.php 第 50 行.
+NOTIC: [2048] Declaration of Home\Model\AddressModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/www.shop.com/Application/Home/Model/AddressModel.class.php 第 15 行.
+NOTIC: [2048] Declaration of Home\Model\AddressModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /home/www/www.shop.com/Application/Home/Model/AddressModel.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.0096s ]
+SQL: SELECT a.id,a.receiver,a.is_default,a.detail_address,a.tel,province.name AS province_name,city.name AS city_name,area.name AS area_name FROM address AS a
+JOIN region AS province ON province.`id`=a.`province_id`
+JOIN region AS city ON city.`id`=a.`city_id`
+JOIN region AS `area` ON `area`.`id`=a.`area_id`
+WHERE member_id=14; [ RunTime:0.0194s ]
+SQL: SHOW COLUMNS FROM `delivery` [ RunTime:0.0166s ]
+SQL: SELECT * FROM `delivery` WHERE ( status>0 )  [ RunTime:0.0064s ]
+SQL: SHOW COLUMNS FROM `pay_type` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `pay_type` WHERE ( status>0 )  [ RunTime:0.0008s ]
+NOTIC: [2048] Declaration of Home\Model\ShoppingCarModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/www.shop.com/Application/Home/Model/ShoppingCarModel.class.php 第 123 行.
+SQL: SHOW COLUMNS FROM `shopping_car` [ RunTime:0.0006s ]
+NOTIC: [2] Missing argument 1 for login(), called in /home/www/www.shop.com/Application/Common/Common/function.php on line 77 and defined /home/www/www.shop.com/Application/Common/Common/function.php 第 49 行.
+NOTIC: [8] Undefined variable: result /home/www/www.shop.com/Application/Common/Common/function.php 第 50 行.
+SQL: SELECT `goods_id`,`num` FROM `shopping_car` WHERE `member_id` = 14  [ RunTime:0.0079s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.1082s ]
+SQL: SELECT `name`,`logo`,`shop_price` FROM `goods` WHERE `id` = 31 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `name`,`logo`,`shop_price` FROM `goods` WHERE `id` = 28 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000320s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000495s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019564s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019715s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000186s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000282s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000723s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000856s ]
+
+[ 2015-11-24T02:10:09+08:00 ] 172.20.10.4 /index.php/Home/OrderInfo/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000139s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000417s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000484s ]
+INFO: [ action_begin ] --START--
+NOTIC: [2] Missing argument 1 for login(), called in /home/www/www.shop.com/Application/Common/Common/function.php on line 77 and defined /home/www/www.shop.com/Application/Common/Common/function.php 第 49 行.
+NOTIC: [8] Undefined variable: result /home/www/www.shop.com/Application/Common/Common/function.php 第 50 行.
+NOTIC: [2] Missing argument 1 for login(), called in /home/www/www.shop.com/Application/Home/Behavior/SetMemberIdBehavior.class.php on line 23 and defined /home/www/www.shop.com/Application/Common/Common/function.php 第 49 行.
+NOTIC: [8] Undefined variable: result /home/www/www.shop.com/Application/Common/Common/function.php 第 50 行.
+INFO: Run \Home\Behavior\SetMemberIdBehavior [ RunTime:0.000122s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.000316s ]
+NOTIC: [2] Missing argument 1 for login(), called in /home/www/www.shop.com/Application/Common/Common/function.php on line 77 and defined /home/www/www.shop.com/Application/Common/Common/function.php 第 49 行.
+NOTIC: [8] Undefined variable: result /home/www/www.shop.com/Application/Common/Common/function.php 第 50 行.
+NOTIC: [2048] Declaration of Home\Model\OrderInfoModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/www.shop.com/Application/Home/Model/OrderInfoModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `order_info` [ RunTime:0.0282s ]
+NOTIC: [2048] Declaration of Home\Model\ShoppingCarModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/www.shop.com/Application/Home/Model/ShoppingCarModel.class.php 第 123 行.
+SQL: SHOW COLUMNS FROM `shopping_car` [ RunTime:0.0006s ]
+NOTIC: [2] Missing argument 1 for login(), called in /home/www/www.shop.com/Application/Common/Common/function.php on line 77 and defined /home/www/www.shop.com/Application/Common/Common/function.php 第 49 行.
+NOTIC: [8] Undefined variable: result /home/www/www.shop.com/Application/Common/Common/function.php 第 50 行.
+SQL: SELECT `goods_id`,`num` FROM `shopping_car` WHERE `member_id` = 14  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0024s ]
+SQL: SELECT `name`,`logo`,`shop_price` FROM `goods` WHERE `id` = 31 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `name`,`logo`,`shop_price` FROM `goods` WHERE `id` = 28 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2048] Declaration of Home\Model\AddressModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/www.shop.com/Application/Home/Model/AddressModel.class.php 第 72 行.
+NOTIC: [2048] Declaration of Home\Model\AddressModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /home/www/www.shop.com/Application/Home/Model/AddressModel.class.php 第 72 行.
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.0008s ]
+SQL: SELECT a.receiver,a.detail_address,a.tel,a.province_id,province.name as province_name,a.city_id,city.name as city_name,a.area_id,area.name as area_name FROM address a INNER JOIN region as  province  on a.province_id = province.id INNER JOIN region as  city  on a.city_id = city.id INNER JOIN region as  area  on a.area_id = area.id  WHERE a.id = '21' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `delivery` [ RunTime:0.0013s ]
+SQL: SELECT id as delivery_id,name as delivery_name,price as delivery_price FROM `delivery` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `pay_type` [ RunTime:0.0011s ]
+SQL: SELECT id as pay_type_id,name as pay_type_name FROM `pay_type` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: INSERT INTO `order_info` (`receiver`,`detail_address`,`tel`,`province_id`,`province_name`,`city_id`,`city_name`,`area_id`,`area_name`,`delivery_id`,`delivery_name`,`delivery_price`,`pay_type_id`,`pay_type_name`,`member_id`,`inputtime`,`order_status`,`shipping_status`,`pay_status`,`price`) VALUES ('王五','广福路898号月光小区','18782934532','1','四川','3','成都','10','武侯区','1','普通快递送货上门','10.00','1','货到付款','14','1448302209','0','0','0','7985') [ RunTime:0.0204s ]
+NOTIC: [2] Missing argument 1 for login(), called in /home/www/www.shop.com/Application/Common/Common/function.php on line 77 and defined /home/www/www.shop.com/Application/Common/Common/function.php 第 49 行.
+NOTIC: [8] Undefined variable: result /home/www/www.shop.com/Application/Common/Common/function.php 第 50 行.
+SQL: SELECT `goods_id`,`num` FROM `shopping_car` WHERE `member_id` = 14  [ RunTime:0.0005s ]
+SQL: SELECT `name`,`logo`,`shop_price` FROM `goods` WHERE `id` = 31 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `name`,`logo`,`shop_price` FROM `goods` WHERE `id` = 28 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2048] Declaration of Home\Model\OrderInfoItemModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) /home/www/www.shop.com/Application/Home/Model/OrderInfoItemModel.class.php 第 24 行.
+SQL: SHOW COLUMNS FROM `order_info_item` [ RunTime:0.0189s ]
+SQL: INSERT INTO `order_info_item` (`goods_id`,`num`,`name`,`logo`,`shop_price`,`order_info_id`,`price`) VALUES ('31','4','锤子','good/2015-11-15/56479b8157585.jpg','1988.00','21','1988.00'),('28','1','测试会员价格','good/2015-11-10/5641f0ebdabdc.jpeg','23.00','21','23.00') [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `invoice` [ RunTime:0.0815s ]
+SQL: INSERT INTO `invoice` (`order_info_id`,`name`,`content`,`price`) VALUES ('21','王五','明细','7975') [ RunTime:0.0003s ]
+SQL: UPDATE `order_info` SET `invoice_id`='8',`sn`='20151124000000000021' WHERE `id` = 21 [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000118s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005968s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006096s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000220s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000513s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000404s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000474s ]
+
+[ 2015-11-24T02:10:10+08:00 ] 172.20.10.4 /index.php/Home/OrderInfo/pay/order_id/21.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000223s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000750s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001050s ]
+INFO: [ action_begin ] --START--
+NOTIC: [2] Missing argument 1 for login(), called in /home/www/www.shop.com/Application/Common/Common/function.php on line 77 and defined /home/www/www.shop.com/Application/Common/Common/function.php 第 49 行.
+NOTIC: [8] Undefined variable: result /home/www/www.shop.com/Application/Common/Common/function.php 第 50 行.
+NOTIC: [2] Missing argument 1 for login(), called in /home/www/www.shop.com/Application/Home/Behavior/SetMemberIdBehavior.class.php on line 23 and defined /home/www/www.shop.com/Application/Common/Common/function.php 第 49 行.
+NOTIC: [8] Undefined variable: result /home/www/www.shop.com/Application/Common/Common/function.php 第 50 行.
+INFO: Run \Home\Behavior\SetMemberIdBehavior [ RunTime:0.000415s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.000538s ]
+NOTIC: [2] Missing argument 1 for login(), called in /home/www/www.shop.com/Application/Common/Common/function.php on line 77 and defined /home/www/www.shop.com/Application/Common/Common/function.php 第 49 行.
+NOTIC: [8] Undefined variable: result /home/www/www.shop.com/Application/Common/Common/function.php 第 50 行.
+NOTIC: [2048] Declaration of Home\Model\OrderInfoModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/www.shop.com/Application/Home/Model/OrderInfoModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `order_info` [ RunTime:0.0008s ]
+SQL: SELECT `id`,`sn`,`price`,`pay_type_id` FROM `order_info` WHERE `id` = 21 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000635s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000906s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008695s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008752s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000200s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000258s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000334s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000382s ]
+
+[ 2015-11-24T02:11:00+08:00 ] 172.20.10.4 /index.php/Home/OrderInfo/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000179s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000380s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000614s ]
+INFO: [ action_begin ] --START--
+NOTIC: [2] Missing argument 1 for login(), called in /home/www/www.shop.com/Application/Common/Common/function.php on line 77 and defined /home/www/www.shop.com/Application/Common/Common/function.php 第 49 行.
+NOTIC: [8] Undefined variable: result /home/www/www.shop.com/Application/Common/Common/function.php 第 50 行.
+NOTIC: [2] Missing argument 1 for login(), called in /home/www/www.shop.com/Application/Home/Behavior/SetMemberIdBehavior.class.php on line 23 and defined /home/www/www.shop.com/Application/Common/Common/function.php 第 49 行.
+NOTIC: [8] Undefined variable: result /home/www/www.shop.com/Application/Common/Common/function.php 第 50 行.
+INFO: Run \Home\Behavior\SetMemberIdBehavior [ RunTime:0.000258s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.000307s ]
+NOTIC: [2] Missing argument 1 for login(), called in /home/www/www.shop.com/Application/Common/Common/function.php on line 77 and defined /home/www/www.shop.com/Application/Common/Common/function.php 第 49 行.
+NOTIC: [8] Undefined variable: result /home/www/www.shop.com/Application/Common/Common/function.php 第 50 行.
+NOTIC: [2048] Declaration of Home\Model\AddressModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/www.shop.com/Application/Home/Model/AddressModel.class.php 第 15 行.
+NOTIC: [2048] Declaration of Home\Model\AddressModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /home/www/www.shop.com/Application/Home/Model/AddressModel.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.0006s ]
+SQL: SELECT a.id,a.receiver,a.is_default,a.detail_address,a.tel,province.name AS province_name,city.name AS city_name,area.name AS area_name FROM address AS a
+JOIN region AS province ON province.`id`=a.`province_id`
+JOIN region AS city ON city.`id`=a.`city_id`
+JOIN region AS `area` ON `area`.`id`=a.`area_id`
+WHERE member_id=14; [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `delivery` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `delivery` WHERE ( status>0 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `pay_type` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `pay_type` WHERE ( status>0 )  [ RunTime:0.0001s ]
+NOTIC: [2048] Declaration of Home\Model\ShoppingCarModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/www.shop.com/Application/Home/Model/ShoppingCarModel.class.php 第 123 行.
+SQL: SHOW COLUMNS FROM `shopping_car` [ RunTime:0.0007s ]
+NOTIC: [2] Missing argument 1 for login(), called in /home/www/www.shop.com/Application/Common/Common/function.php on line 77 and defined /home/www/www.shop.com/Application/Common/Common/function.php 第 49 行.
+NOTIC: [8] Undefined variable: result /home/www/www.shop.com/Application/Common/Common/function.php 第 50 行.
+SQL: SELECT `goods_id`,`num` FROM `shopping_car` WHERE `member_id` = 14  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0006s ]
+SQL: SELECT `name`,`logo`,`shop_price` FROM `goods` WHERE `id` = 31 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name`,`logo`,`shop_price` FROM `goods` WHERE `id` = 28 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000340s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015226s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015349s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000264s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000456s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000808s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000890s ]
+
+[ 2015-11-24T02:39:52+08:00 ] 172.20.10.4 /index.php/Home/OrderInfo/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002448s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002653s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002811s ]
+INFO: [ action_begin ] --START--
+NOTIC: [2] Missing argument 1 for login(), called in /home/www/www.shop.com/Application/Common/Common/function.php on line 77 and defined /home/www/www.shop.com/Application/Common/Common/function.php 第 49 行.
+NOTIC: [8] Undefined variable: result /home/www/www.shop.com/Application/Common/Common/function.php 第 50 行.
+NOTIC: [2] Missing argument 1 for login(), called in /home/www/www.shop.com/Application/Home/Behavior/SetMemberIdBehavior.class.php on line 23 and defined /home/www/www.shop.com/Application/Common/Common/function.php 第 49 行.
+NOTIC: [8] Undefined variable: result /home/www/www.shop.com/Application/Common/Common/function.php 第 50 行.
+INFO: Run \Home\Behavior\SetMemberIdBehavior [ RunTime:0.000283s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.000337s ]
+NOTIC: [2] Missing argument 1 for login(), called in /home/www/www.shop.com/Application/Common/Common/function.php on line 77 and defined /home/www/www.shop.com/Application/Common/Common/function.php 第 49 行.
+NOTIC: [8] Undefined variable: result /home/www/www.shop.com/Application/Common/Common/function.php 第 50 行.
+NOTIC: [2048] Declaration of Home\Model\OrderInfoModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/www.shop.com/Application/Home/Model/OrderInfoModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `order_info` [ RunTime:0.0013s ]
+NOTIC: [2048] Declaration of Home\Model\ShoppingCarModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/www.shop.com/Application/Home/Model/ShoppingCarModel.class.php 第 123 行.
+SQL: SHOW COLUMNS FROM `shopping_car` [ RunTime:0.0011s ]
+NOTIC: [2] Missing argument 1 for login(), called in /home/www/www.shop.com/Application/Common/Common/function.php on line 77 and defined /home/www/www.shop.com/Application/Common/Common/function.php 第 49 行.
+NOTIC: [8] Undefined variable: result /home/www/www.shop.com/Application/Common/Common/function.php 第 50 行.
+SQL: SELECT `goods_id`,`num` FROM `shopping_car` WHERE `member_id` = 14  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0011s ]
+SQL: SELECT `name`,`logo`,`shop_price` FROM `goods` WHERE `id` = 31 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name`,`logo`,`shop_price` FROM `goods` WHERE `id` = 28 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `goods` WHERE `id` = 31 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0008s ]
+SQL: UPDATE `goods` SET `stock`=stock-4 WHERE `id` = 31 [ RunTime:0.0209s ]
+SQL: SELECT * FROM `goods` WHERE `id` = 28 LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `goods` SET `stock`=stock-1 WHERE `id` = 28 [ RunTime:0.0001s ]
+NOTIC: [2048] Declaration of Home\Model\AddressModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/www.shop.com/Application/Home/Model/AddressModel.class.php 第 72 行.
+NOTIC: [2048] Declaration of Home\Model\AddressModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /home/www/www.shop.com/Application/Home/Model/AddressModel.class.php 第 72 行.
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.0011s ]
+SQL: SELECT a.receiver,a.detail_address,a.tel,a.province_id,province.name as province_name,a.city_id,city.name as city_name,a.area_id,area.name as area_name FROM address a INNER JOIN region as  province  on a.province_id = province.id INNER JOIN region as  city  on a.city_id = city.id INNER JOIN region as  area  on a.area_id = area.id  WHERE a.id = '21' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `delivery` [ RunTime:0.0012s ]
+SQL: SELECT id as delivery_id,name as delivery_name,price as delivery_price FROM `delivery` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `pay_type` [ RunTime:0.0004s ]
+SQL: SELECT id as pay_type_id,name as pay_type_name FROM `pay_type` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: INSERT INTO `order_info` (`receiver`,`detail_address`,`tel`,`province_id`,`province_name`,`city_id`,`city_name`,`area_id`,`area_name`,`delivery_id`,`delivery_name`,`delivery_price`,`pay_type_id`,`pay_type_name`,`member_id`,`inputtime`,`order_status`,`shipping_status`,`pay_status`,`price`) VALUES ('王五','广福路898号月光小区','18782934532','1','四川','3','成都','10','武侯区','1','普通快递送货上门','10.00','1','货到付款','14','1448303992','0','0','0','7985') [ RunTime:0.0004s ]
+NOTIC: [2] Missing argument 1 for login(), called in /home/www/www.shop.com/Application/Common/Common/function.php on line 77 and defined /home/www/www.shop.com/Application/Common/Common/function.php 第 49 行.
+NOTIC: [8] Undefined variable: result /home/www/www.shop.com/Application/Common/Common/function.php 第 50 行.
+SQL: SELECT `goods_id`,`num` FROM `shopping_car` WHERE `member_id` = 14  [ RunTime:0.0001s ]
+SQL: SELECT `name`,`logo`,`shop_price` FROM `goods` WHERE `id` = 31 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name`,`logo`,`shop_price` FROM `goods` WHERE `id` = 28 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2048] Declaration of Home\Model\OrderInfoItemModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) /home/www/www.shop.com/Application/Home/Model/OrderInfoItemModel.class.php 第 24 行.
+SQL: SHOW COLUMNS FROM `order_info_item` [ RunTime:0.0007s ]
+SQL: INSERT INTO `order_info_item` (`goods_id`,`num`,`name`,`logo`,`shop_price`,`order_info_id`,`price`) VALUES ('31','4','锤子','good/2015-11-15/56479b8157585.jpg','1988.00','22','1988.00'),('28','1','测试会员价格','good/2015-11-10/5641f0ebdabdc.jpeg','23.00','22','23.00') [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `invoice` [ RunTime:0.0014s ]
+SQL: INSERT INTO `invoice` (`order_info_id`,`name`,`content`,`price`) VALUES ('22','王五','明细','7975') [ RunTime:0.0002s ]
+SQL: UPDATE `order_info` SET `invoice_id`='9',`sn`='20151124000000000022' WHERE `id` = 22 [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000507s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001229s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007589s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007627s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000204s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000240s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000470s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000515s ]
+
+[ 2015-11-24T02:39:53+08:00 ] 172.20.10.4 /index.php/Home/OrderInfo/pay/order_id/22.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000115s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000549s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001486s ]
+INFO: [ action_begin ] --START--
+NOTIC: [2] Missing argument 1 for login(), called in /home/www/www.shop.com/Application/Common/Common/function.php on line 77 and defined /home/www/www.shop.com/Application/Common/Common/function.php 第 49 行.
+NOTIC: [8] Undefined variable: result /home/www/www.shop.com/Application/Common/Common/function.php 第 50 行.
+NOTIC: [2] Missing argument 1 for login(), called in /home/www/www.shop.com/Application/Home/Behavior/SetMemberIdBehavior.class.php on line 23 and defined /home/www/www.shop.com/Application/Common/Common/function.php 第 49 行.
+NOTIC: [8] Undefined variable: result /home/www/www.shop.com/Application/Common/Common/function.php 第 50 行.
+INFO: Run \Home\Behavior\SetMemberIdBehavior [ RunTime:0.000256s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.000302s ]
+NOTIC: [2] Missing argument 1 for login(), called in /home/www/www.shop.com/Application/Common/Common/function.php on line 77 and defined /home/www/www.shop.com/Application/Common/Common/function.php 第 49 行.
+NOTIC: [8] Undefined variable: result /home/www/www.shop.com/Application/Common/Common/function.php 第 50 行.
+NOTIC: [2048] Declaration of Home\Model\OrderInfoModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/www.shop.com/Application/Home/Model/OrderInfoModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `order_info` [ RunTime:0.0013s ]
+SQL: SELECT `id`,`sn`,`price`,`pay_type_id` FROM `order_info` WHERE `id` = 22 LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000354s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000955s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010668s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010718s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000175s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000216s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000417s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000477s ]
+
+[ 2015-11-24T02:53:45+08:00 ] 172.20.10.4 /index.php/Home/OrderInfo/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000117s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000444s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000502s ]
+INFO: [ action_begin ] --START--
+NOTIC: [2] Missing argument 1 for login(), called in /home/www/www.shop.com/Application/Common/Common/function.php on line 77 and defined /home/www/www.shop.com/Application/Common/Common/function.php 第 49 行.
+NOTIC: [8] Undefined variable: result /home/www/www.shop.com/Application/Common/Common/function.php 第 50 行.
+NOTIC: [2] Missing argument 1 for login(), called in /home/www/www.shop.com/Application/Home/Behavior/SetMemberIdBehavior.class.php on line 23 and defined /home/www/www.shop.com/Application/Common/Common/function.php 第 49 行.
+NOTIC: [8] Undefined variable: result /home/www/www.shop.com/Application/Common/Common/function.php 第 50 行.
+INFO: Run \Home\Behavior\SetMemberIdBehavior [ RunTime:0.000257s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.000301s ]
+NOTIC: [2] Missing argument 1 for login(), called in /home/www/www.shop.com/Application/Common/Common/function.php on line 77 and defined /home/www/www.shop.com/Application/Common/Common/function.php 第 49 行.
+NOTIC: [8] Undefined variable: result /home/www/www.shop.com/Application/Common/Common/function.php 第 50 行.
+NOTIC: [2048] Declaration of Home\Model\OrderInfoModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/www.shop.com/Application/Home/Model/OrderInfoModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `order_info` [ RunTime:0.0012s ]
+NOTIC: [2048] Declaration of Home\Model\ShoppingCarModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/www.shop.com/Application/Home/Model/ShoppingCarModel.class.php 第 123 行.
+SQL: SHOW COLUMNS FROM `shopping_car` [ RunTime:0.0012s ]
+NOTIC: [2] Missing argument 1 for login(), called in /home/www/www.shop.com/Application/Common/Common/function.php on line 77 and defined /home/www/www.shop.com/Application/Common/Common/function.php 第 49 行.
+NOTIC: [8] Undefined variable: result /home/www/www.shop.com/Application/Common/Common/function.php 第 50 行.
+SQL: SELECT `goods_id`,`num` FROM `shopping_car` WHERE `member_id` = 14  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0008s ]
+SQL: SELECT `name`,`logo`,`shop_price` FROM `goods` WHERE `id` = 31 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `name`,`logo`,`shop_price` FROM `goods` WHERE `id` = 28 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `goods` WHERE `id` = 31 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0005s ]
+SQL: UPDATE `goods` SET `stock`=stock-4 WHERE `id` = 31 [ RunTime:0.0004s ]
+SQL: SELECT * FROM `goods` WHERE `id` = 28 LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `goods` SET `stock`=stock-1 WHERE `id` = 28 [ RunTime:0.0002s ]
+NOTIC: [2048] Declaration of Home\Model\AddressModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/www.shop.com/Application/Home/Model/AddressModel.class.php 第 72 行.
+NOTIC: [2048] Declaration of Home\Model\AddressModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /home/www/www.shop.com/Application/Home/Model/AddressModel.class.php 第 72 行.
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.0011s ]
+SQL: SELECT a.receiver,a.detail_address,a.tel,a.province_id,province.name as province_name,a.city_id,city.name as city_name,a.area_id,area.name as area_name FROM address a INNER JOIN region as  province  on a.province_id = province.id INNER JOIN region as  city  on a.city_id = city.id INNER JOIN region as  area  on a.area_id = area.id  WHERE a.id = '21' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `delivery` [ RunTime:0.0006s ]
+SQL: SELECT id as delivery_id,name as delivery_name,price as delivery_price FROM `delivery` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `pay_type` [ RunTime:0.0006s ]
+SQL: SELECT id as pay_type_id,name as pay_type_name FROM `pay_type` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: INSERT INTO `order_info` (`receiver`,`detail_address`,`tel`,`province_id`,`province_name`,`city_id`,`city_name`,`area_id`,`area_name`,`delivery_id`,`delivery_name`,`delivery_price`,`pay_type_id`,`pay_type_name`,`member_id`,`inputtime`,`order_status`,`shipping_status`,`pay_status`,`price`) VALUES ('王五','广福路898号月光小区','18782934532','1','四川','3','成都','10','武侯区','1','普通快递送货上门','10.00','1','货到付款','14','1448304825','0','0','0','7985') [ RunTime:0.0004s ]
+NOTIC: [2] Missing argument 1 for login(), called in /home/www/www.shop.com/Application/Common/Common/function.php on line 77 and defined /home/www/www.shop.com/Application/Common/Common/function.php 第 49 行.
+NOTIC: [8] Undefined variable: result /home/www/www.shop.com/Application/Common/Common/function.php 第 50 行.
+SQL: SELECT `goods_id`,`num` FROM `shopping_car` WHERE `member_id` = 14  [ RunTime:0.0003s ]
+SQL: SELECT `name`,`logo`,`shop_price` FROM `goods` WHERE `id` = 31 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name`,`logo`,`shop_price` FROM `goods` WHERE `id` = 28 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2048] Declaration of Home\Model\OrderInfoItemModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) /home/www/www.shop.com/Application/Home/Model/OrderInfoItemModel.class.php 第 24 行.
+SQL: SHOW COLUMNS FROM `order_info_item` [ RunTime:0.0007s ]
+SQL: INSERT INTO `order_info_item` (`goods_id`,`num`,`name`,`logo`,`shop_price`,`order_info_id`,`price`) VALUES ('31','4','锤子','good/2015-11-15/56479b8157585.jpg','1988.00','23','1988.00'),('28','1','测试会员价格','good/2015-11-10/5641f0ebdabdc.jpeg','23.00','23','23.00') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `invoice` [ RunTime:0.0007s ]
+SQL: INSERT INTO `invoice` (`order_info_id`,`name`,`content`,`price`) VALUES ('23','王五','明细','7975') [ RunTime:0.0003s ]
+SQL: UPDATE `order_info` SET `invoice_id`='10',`sn`='20151124000000000023' WHERE `id` = 23 [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000118s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006203s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006262s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000119s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000153s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000383s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000481s ]
+
+[ 2015-11-24T02:53:46+08:00 ] 172.20.10.4 /index.php/Home/OrderInfo/pay/order_id/23.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000210s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000400s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000550s ]
+INFO: [ action_begin ] --START--
+NOTIC: [2] Missing argument 1 for login(), called in /home/www/www.shop.com/Application/Common/Common/function.php on line 77 and defined /home/www/www.shop.com/Application/Common/Common/function.php 第 49 行.
+NOTIC: [8] Undefined variable: result /home/www/www.shop.com/Application/Common/Common/function.php 第 50 行.
+NOTIC: [2] Missing argument 1 for login(), called in /home/www/www.shop.com/Application/Home/Behavior/SetMemberIdBehavior.class.php on line 23 and defined /home/www/www.shop.com/Application/Common/Common/function.php 第 49 行.
+NOTIC: [8] Undefined variable: result /home/www/www.shop.com/Application/Common/Common/function.php 第 50 行.
+INFO: Run \Home\Behavior\SetMemberIdBehavior [ RunTime:0.000387s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.000482s ]
+NOTIC: [2] Missing argument 1 for login(), called in /home/www/www.shop.com/Application/Common/Common/function.php on line 77 and defined /home/www/www.shop.com/Application/Common/Common/function.php 第 49 行.
+NOTIC: [8] Undefined variable: result /home/www/www.shop.com/Application/Common/Common/function.php 第 50 行.
+NOTIC: [2048] Declaration of Home\Model\OrderInfoModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/www.shop.com/Application/Home/Model/OrderInfoModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `order_info` [ RunTime:0.0017s ]
+SQL: SELECT `id`,`sn`,`price`,`pay_type_id` FROM `order_info` WHERE `id` = 23 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000262s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000925s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008349s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008416s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000147s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000186s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000302s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000315s ]
+
+[ 2015-11-24T03:00:02+08:00 ] 127.0.0.1 /index.php/Home/Index/goodsClickTimesRedis2Db
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000090s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000918s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001230s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /home/www/www.shop.com/Application/Home/Controller/IndexController.class.php 第 114 行.
+INFO: [ action_begin ] --START--
+NOTIC: [2] Missing argument 1 for login(), called in /home/www/www.shop.com/Application/Common/Common/function.php on line 77 and defined /home/www/www.shop.com/Application/Common/Common/function.php 第 49 行.
+NOTIC: [8] Undefined variable: result /home/www/www.shop.com/Application/Common/Common/function.php 第 50 行.
+INFO: Run \Home\Behavior\SetMemberIdBehavior [ RunTime:0.000240s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.000286s ]
+SQL: SHOW COLUMNS FROM `goods_category` [ RunTime:0.0008s ]
+SQL: SELECT `id`,`name`,`parent_id`,`level` FROM `goods_category` WHERE ( status>0 ) ORDER BY lft  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `article_category` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0005s ]
+SQL: SELECT a.`id`,a.`name`,a.`article_category_id` FROM article_category AS ac JOIN article AS a ON ac.`id`=a.`article_category_id` WHERE ac.`is_help`=1; [ RunTime:0.0008s ]
+SQL: SELECT `id`,`name` FROM `article` WHERE `article_category_id` = 6  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `goods_times` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods_times` WHERE `goods_id` = 31 LIMIT 1   [ RunTime:0.0448s ]
+SQL: UPDATE `goods_times` SET `times`=times+2 WHERE `goods_id` = 31 [ RunTime:0.0187s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000457s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000524s ]
+

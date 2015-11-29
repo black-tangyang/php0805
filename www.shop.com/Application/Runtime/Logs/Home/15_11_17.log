@@ -1,0 +1,1651 @@
+[ 2015-11-17T00:03:02+08:00 ] 192.168.0.104 /index.php/Home/Member/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000299s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000450s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000507s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000269s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000960s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008481s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008655s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000142s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000182s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000210s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000275s ]
+
+[ 2015-11-17T00:03:08+08:00 ] 192.168.0.104 /index.php/Home/Member/sendSMS.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000099s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000218s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000664s ]
+NOTIC: [2048] Declaration of Home\Model\MemberModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/www.shop.com/Application/Home/Model/MemberModel.class.php 第 16 行.
+NOTIC: [2048] Declaration of Home\Model\MemberModel::check() should be compatible with Think\Model::check($value, $rule, $type = 'regex') /home/www/www.shop.com/Application/Home/Model/MemberModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0009s ]
+
+[ 2015-11-17T00:03:32+08:00 ] 192.168.0.104 /index.php/Home/Member/sendSMS.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000136s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000428s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000488s ]
+NOTIC: [2048] Declaration of Home\Model\MemberModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/www.shop.com/Application/Home/Model/MemberModel.class.php 第 16 行.
+NOTIC: [2048] Declaration of Home\Model\MemberModel::check() should be compatible with Think\Model::check($value, $rule, $type = 'regex') /home/www/www.shop.com/Application/Home/Model/MemberModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0008s ]
+
+[ 2015-11-17T00:03:40+08:00 ] 192.168.0.104 /index.php/Home/Member/sendSMS.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000073s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000491s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000548s ]
+ERR: 参数错误或者未定义:tel
+
+[ 2015-11-17T00:04:00+08:00 ] 192.168.0.104 /index.php/Home/Member/sendSMS.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000223s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000289s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000398s ]
+ERR: 参数错误或者未定义:tel
+
+[ 2015-11-17T00:06:51+08:00 ] 192.168.0.104 /index.php/Home/Member/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000158s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000671s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000824s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000217s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000415s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012349s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012419s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000341s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000400s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000564s ]
+
+[ 2015-11-17T00:07:52+08:00 ] 192.168.0.104 /index.php/Home/Member/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000110s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000521s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000916s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000226s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000326s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014091s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015114s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000358s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000423s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000628s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000650s ]
+
+[ 2015-11-17T00:07:53+08:00 ] 192.168.0.104 /index.php/Home/Member/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000332s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001921s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002864s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000351s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000572s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029602s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030372s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000601s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000848s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000838s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001290s ]
+
+[ 2015-11-17T00:07:55+08:00 ] 192.168.0.104 /index.php/Home/Member/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000172s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000558s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000920s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001273s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000388s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000815s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011059s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011143s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000098s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000130s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000541s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000595s ]
+
+[ 2015-11-17T00:07:55+08:00 ] 192.168.0.104 /index.php/Home/Member/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000123s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001458s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000534s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000876s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012481s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012679s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000274s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000337s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000670s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000732s ]
+
+[ 2015-11-17T00:09:31+08:00 ] 192.168.0.104 /index.php/Home/Member/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000428s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000570s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000753s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000383s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000664s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032230s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032485s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000394s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000440s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001041s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001213s ]
+
+[ 2015-11-17T00:09:32+08:00 ] 192.168.0.104 /index.php/Home/Member/sendSMS.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000103s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000716s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000854s ]
+ERR: 参数错误或者未定义:tel
+
+[ 2015-11-17T00:11:30+08:00 ] 192.168.0.104 /index.php/Home/Member/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000203s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000535s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000602s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000510s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012055s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012124s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000085s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000302s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000506s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000800s ]
+
+[ 2015-11-17T00:12:02+08:00 ] 192.168.0.104 /index.php/Home/Member/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000147s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000278s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000304s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000355s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000173s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007974s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008073s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000161s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000252s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000358s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000396s ]
+
+[ 2015-11-17T00:12:28+08:00 ] 192.168.0.104 /index.php/Home/Member/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000090s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000470s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000610s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000459s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000796s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010357s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010500s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000208s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000312s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000469s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000519s ]
+
+[ 2015-11-17T00:13:10+08:00 ] 192.168.0.104 /index.php/Home/Member/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000273s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000681s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000218s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010667s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010727s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000184s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000228s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000456s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000494s ]
+
+[ 2015-11-17T00:13:26+08:00 ] 192.168.0.104 /index.php/Home/Member/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000076s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000361s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000405s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000317s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000820s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008489s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008679s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000209s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000269s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000531s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000549s ]
+
+[ 2015-11-17T00:13:28+08:00 ] 192.168.0.104 /index.php/Home/Member/sendSMS.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000107s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000407s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000540s ]
+NOTIC: [2048] Declaration of Home\Model\MemberModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/www.shop.com/Application/Home/Model/MemberModel.class.php 第 16 行.
+NOTIC: [2048] Declaration of Home\Model\MemberModel::check() should be compatible with Think\Model::check($value, $rule, $type = 'regex') /home/www/www.shop.com/Application/Home/Model/MemberModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0009s ]
+
+[ 2015-11-17T00:15:00+08:00 ] 192.168.0.104 /index.php/Home/Member/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000096s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000451s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000584s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000612s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000953s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031241s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031332s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007477s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009260s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001332s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001865s ]
+
+[ 2015-11-17T00:15:02+08:00 ] 192.168.0.104 /index.php/Home/Member/sendSMS.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000176s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000549s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000620s ]
+
+[ 2015-11-17T00:16:14+08:00 ] 192.168.0.104 /index.php/Home/Member/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000208s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001390s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002040s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000116s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000635s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018353s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018405s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000218s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000270s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001513s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002039s ]
+
+[ 2015-11-17T00:16:15+08:00 ] 192.168.0.104 /index.php/Home/Member/sendSMS.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000099s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000664s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000802s ]
+NOTIC: [2048] Declaration of Home\Model\MemberModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/www.shop.com/Application/Home/Model/MemberModel.class.php 第 16 行.
+NOTIC: [2048] Declaration of Home\Model\MemberModel::check() should be compatible with Think\Model::check($value, $rule, $type = 'regex') /home/www/www.shop.com/Application/Home/Model/MemberModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0008s ]
+
+[ 2015-11-17T00:16:41+08:00 ] 192.168.0.104 /index.php/Home/Member/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000165s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001217s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001081s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001242s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000327s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000999s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019316s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019454s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000293s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000375s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000813s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000944s ]
+
+[ 2015-11-17T00:16:56+08:00 ] 192.168.0.104 /index.php/Home/Member/sendSMS.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000224s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000444s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000498s ]
+NOTIC: [2048] Declaration of Home\Model\MemberModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/www.shop.com/Application/Home/Model/MemberModel.class.php 第 16 行.
+NOTIC: [2048] Declaration of Home\Model\MemberModel::check() should be compatible with Think\Model::check($value, $rule, $type = 'regex') /home/www/www.shop.com/Application/Home/Model/MemberModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0008s ]
+
+[ 2015-11-17T00:16:59+08:00 ] 192.168.0.104 /index.php/Home/Member/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000266s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000473s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000523s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000154s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000267s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021285s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021414s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000238s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000294s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000528s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000685s ]
+
+[ 2015-11-17T00:17:00+08:00 ] 192.168.0.104 /index.php/Home/Member/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000497s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001973s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002151s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000534s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001004s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014474s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014540s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000202s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000249s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000312s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000457s ]
+
+[ 2015-11-17T00:17:11+08:00 ] 192.168.0.104 /index.php/Home/Member/sendSMS.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000082s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000334s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000542s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000605s ]
+NOTIC: [2048] Declaration of Home\Model\MemberModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/www.shop.com/Application/Home/Model/MemberModel.class.php 第 16 行.
+NOTIC: [2048] Declaration of Home\Model\MemberModel::check() should be compatible with Think\Model::check($value, $rule, $type = 'regex') /home/www/www.shop.com/Application/Home/Model/MemberModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0429s ]
+
+[ 2015-11-17T00:18:58+08:00 ] 192.168.0.104 /index.php/Home/Member/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000249s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000703s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001079s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000532s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001217s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010288s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010348s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000161s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000195s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000435s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000481s ]
+
+[ 2015-11-17T00:19:16+08:00 ] 192.168.0.104 /index.php/Home/Member/sendSMS.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000122s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000316s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000410s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000461s ]
+NOTIC: [2048] Declaration of Home\Model\MemberModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/www.shop.com/Application/Home/Model/MemberModel.class.php 第 16 行.
+NOTIC: [2048] Declaration of Home\Model\MemberModel::check() should be compatible with Think\Model::check($value, $rule, $type = 'regex') /home/www/www.shop.com/Application/Home/Model/MemberModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0013s ]
+
+[ 2015-11-17T00:25:07+08:00 ] 192.168.0.104 /index.php/Home/Member/sendSMS.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000091s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000546s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000611s ]
+NOTIC: [2048] Declaration of Home\Model\MemberModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/www.shop.com/Application/Home/Model/MemberModel.class.php 第 16 行.
+NOTIC: [2048] Declaration of Home\Model\MemberModel::check() should be compatible with Think\Model::check($value, $rule, $type = 'regex') /home/www/www.shop.com/Application/Home/Model/MemberModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0026s ]
+
+[ 2015-11-17T00:25:13+08:00 ] 192.168.0.104 /index.php/Home/Member/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000512s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002427s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002987s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000459s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001345s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014459s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014544s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000242s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000302s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000407s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000646s ]
+
+[ 2015-11-17T00:25:14+08:00 ] 192.168.0.104 /index.php/Home/Member/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000121s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000767s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000286s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000735s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013395s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013569s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000407s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000552s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000524s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000609s ]
+
+[ 2015-11-17T00:25:16+08:00 ] 192.168.0.104 /index.php/Home/Member/sendSMS.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000123s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000388s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000537s ]
+NOTIC: [2048] Declaration of Home\Model\MemberModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/www.shop.com/Application/Home/Model/MemberModel.class.php 第 16 行.
+NOTIC: [2048] Declaration of Home\Model\MemberModel::check() should be compatible with Think\Model::check($value, $rule, $type = 'regex') /home/www/www.shop.com/Application/Home/Model/MemberModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0010s ]
+
+[ 2015-11-17T00:31:10+08:00 ] 192.168.0.104 /index.php/Home/Member/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000884s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001084s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000312s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000703s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026380s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026544s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000355s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000479s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000498s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000633s ]
+
+[ 2015-11-17T00:31:12+08:00 ] 192.168.0.104 /index.php/Home/Member/sendSMS.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000192s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000573s ]
+NOTIC: [2048] Declaration of Home\Model\MemberModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/www.shop.com/Application/Home/Model/MemberModel.class.php 第 16 行.
+NOTIC: [2048] Declaration of Home\Model\MemberModel::check() should be compatible with Think\Model::check($value, $rule, $type = 'regex') /home/www/www.shop.com/Application/Home/Model/MemberModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0015s ]
+
+[ 2015-11-17T00:43:10+08:00 ] 192.168.0.104 /index.php/Home/Member/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000207s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000456s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000600s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000336s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001314s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009695s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010009s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000191s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000243s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000511s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000570s ]
+
+[ 2015-11-17T00:43:11+08:00 ] 192.168.0.104 /index.php/Home/Member/sendSMS.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000152s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001949s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002121s ]
+NOTIC: [2048] Declaration of Home\Model\MemberModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/www.shop.com/Application/Home/Model/MemberModel.class.php 第 16 行.
+NOTIC: [2048] Declaration of Home\Model\MemberModel::check() should be compatible with Think\Model::check($value, $rule, $type = 'regex') /home/www/www.shop.com/Application/Home/Model/MemberModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0008s ]
+
+[ 2015-11-17T00:43:21+08:00 ] 192.168.0.104 /index.php/Home/Member/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000335s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000480s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000649s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000102s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000189s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008774s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008821s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000147s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000217s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000522s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000660s ]
+
+[ 2015-11-17T00:43:23+08:00 ] 192.168.0.104 /index.php/Home/Member/sendSMS.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000234s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000250s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000295s ]
+NOTIC: [2048] Declaration of Home\Model\MemberModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/www.shop.com/Application/Home/Model/MemberModel.class.php 第 16 行.
+NOTIC: [2048] Declaration of Home\Model\MemberModel::check() should be compatible with Think\Model::check($value, $rule, $type = 'regex') /home/www/www.shop.com/Application/Home/Model/MemberModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0012s ]
+
+[ 2015-11-17T17:07:16+08:00 ] 172.20.10.4 /Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000143s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000974s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001080s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /home/www/www.shop.com/Application/Home/Controller/IndexController.class.php 第 71 行.
+SQL: SHOW COLUMNS FROM `goods_category` [ RunTime:0.1282s ]
+SQL: SELECT `id`,`name`,`parent_id`,`level` FROM `goods_category` WHERE ( status>0 ) ORDER BY lft  [ RunTime:0.0027s ]
+SQL: SHOW COLUMNS FROM `article_category` [ RunTime:0.0168s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0248s ]
+SQL: SELECT a.`id`,a.`name`,a.`article_category_id` FROM article_category AS ac JOIN article AS a ON ac.`id`=a.`article_category_id` WHERE ac.`is_help`=1; [ RunTime:0.0152s ]
+SQL: SELECT `id`,`name` FROM `article` WHERE `article_category_id` = 6  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0424s ]
+SQL: SELECT `id`,`name`,`shop_price`,`goods_status`,`logo` FROM `goods` WHERE ( is_on_sale=1 and status>0 ) ORDER BY sort  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.055775s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.056294s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.254130s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.254428s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.011538s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011638s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002957s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003180s ]
+
+[ 2015-11-17T17:07:41+08:00 ] 172.20.10.4 /index.php/Home/Member/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000192s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000443s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000494s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000016s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000051s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.122967s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.123031s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000118s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000144s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000803s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000830s ]
+
+[ 2015-11-17T17:07:50+08:00 ] 172.20.10.4 /index.php/Home/Member/sendSMS.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000086s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000984s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001097s ]
+NOTIC: [2048] Declaration of Home\Model\MemberModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/www.shop.com/Application/Home/Model/MemberModel.class.php 第 16 行.
+NOTIC: [2048] Declaration of Home\Model\MemberModel::check() should be compatible with Think\Model::check($value, $rule, $type = 'regex') /home/www/www.shop.com/Application/Home/Model/MemberModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0465s ]
+
+[ 2015-11-17T17:12:00+08:00 ] 172.20.10.4 /index.php/Home/Member/sendSMS.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000087s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000242s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000400s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000472s ]
+NOTIC: [2048] Declaration of Home\Model\MemberModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/www.shop.com/Application/Home/Model/MemberModel.class.php 第 16 行.
+NOTIC: [2048] Declaration of Home\Model\MemberModel::check() should be compatible with Think\Model::check($value, $rule, $type = 'regex') /home/www/www.shop.com/Application/Home/Model/MemberModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0013s ]
+
+[ 2015-11-17T17:12:06+08:00 ] 172.20.10.4 /index.php/Home/Member/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000104s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000623s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000777s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000163s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000363s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009755s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009890s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000180s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000216s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000853s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000954s ]
+
+[ 2015-11-17T17:12:07+08:00 ] 172.20.10.4 /index.php/Home/Member/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000114s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000519s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000610s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000174s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000482s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009045s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009099s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000181s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000219s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000409s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000448s ]
+
+[ 2015-11-17T17:12:07+08:00 ] 172.20.10.4 /index.php/Home/Member/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000082s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000186s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000258s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000220s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000581s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009135s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009236s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000151s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000184s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000391s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000435s ]
+
+[ 2015-11-17T17:12:12+08:00 ] 172.20.10.4 /index.php/Home/Member/sendSMS.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000097s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000506s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000564s ]
+NOTIC: [2048] Declaration of Home\Model\MemberModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/www.shop.com/Application/Home/Model/MemberModel.class.php 第 16 行.
+NOTIC: [2048] Declaration of Home\Model\MemberModel::check() should be compatible with Think\Model::check($value, $rule, $type = 'regex') /home/www/www.shop.com/Application/Home/Model/MemberModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0008s ]
+
+[ 2015-11-17T17:20:37+08:00 ] 172.20.10.4 /index.php/Home/Member/check.html?username=test2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000091s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000264s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000481s ]
+NOTIC: [2048] Declaration of Home\Model\MemberModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/www.shop.com/Application/Home/Model/MemberModel.class.php 第 16 行.
+NOTIC: [2048] Declaration of Home\Model\MemberModel::check() should be compatible with Think\Model::check($value, $rule, $type = 'regex') /home/www/www.shop.com/Application/Home/Model/MemberModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `member` WHERE `username` = 'test2' LIMIT 1   [ RunTime:0.0013s ]
+
+[ 2015-11-17T17:20:46+08:00 ] 172.20.10.4 /index.php/Home/Member/check.html?email=test2%40qq.com
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000271s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000499s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000581s ]
+NOTIC: [2048] Declaration of Home\Model\MemberModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/www.shop.com/Application/Home/Model/MemberModel.class.php 第 16 行.
+NOTIC: [2048] Declaration of Home\Model\MemberModel::check() should be compatible with Think\Model::check($value, $rule, $type = 'regex') /home/www/www.shop.com/Application/Home/Model/MemberModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `member` WHERE `email` = 'test2@qq.com' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2015-11-17T17:21:11+08:00 ] 172.20.10.4 /index.php/Home/Member/sendSMS.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000084s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000520s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000562s ]
+NOTIC: [2048] Declaration of Home\Model\MemberModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/www.shop.com/Application/Home/Model/MemberModel.class.php 第 16 行.
+NOTIC: [2048] Declaration of Home\Model\MemberModel::check() should be compatible with Think\Model::check($value, $rule, $type = 'regex') /home/www/www.shop.com/Application/Home/Model/MemberModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0007s ]
+
+[ 2015-11-17T17:21:28+08:00 ] 172.20.10.4 /index.php/Home/Member/regist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.076219s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000605s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000706s ]
+NOTIC: [2048] Declaration of Home\Model\MemberModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/www.shop.com/Application/Home/Model/MemberModel.class.php 第 16 行.
+NOTIC: [2048] Declaration of Home\Model\MemberModel::check() should be compatible with Think\Model::check($value, $rule, $type = 'regex') /home/www/www.shop.com/Application/Home/Model/MemberModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0009s ]
+NOTIC: [8] Undefined index: validate /home/www/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /home/www/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `member` (`username`,`email`,`password`,`salt`,`add_time`) VALUES ('test2','test2@qq.com','fd9e3416a1c5b4d253eb766e36559777','DTUCBd','1447752087') [ RunTime:0.1663s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000158s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000530s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.052615s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052724s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000152s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000193s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000434s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000481s ]
+
+[ 2015-11-17T17:21:29+08:00 ] 172.20.10.4 /index.php/Home/Member/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000105s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000279s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000335s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000220s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000843s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036639s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036746s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000189s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000301s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000399s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000442s ]
+
+[ 2015-11-17T17:22:03+08:00 ] 172.20.10.4 /index.php/Home/Member/check.html?username=test3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000099s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000121s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000170s ]
+NOTIC: [2048] Declaration of Home\Model\MemberModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/www.shop.com/Application/Home/Model/MemberModel.class.php 第 16 行.
+NOTIC: [2048] Declaration of Home\Model\MemberModel::check() should be compatible with Think\Model::check($value, $rule, $type = 'regex') /home/www/www.shop.com/Application/Home/Model/MemberModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `member` WHERE `username` = 'test3' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2015-11-17T17:22:05+08:00 ] 172.20.10.4 /index.php/Home/Member/check.html?email=test3%40qq.com
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000161s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000411s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000427s ]
+NOTIC: [2048] Declaration of Home\Model\MemberModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/www.shop.com/Application/Home/Model/MemberModel.class.php 第 16 行.
+NOTIC: [2048] Declaration of Home\Model\MemberModel::check() should be compatible with Think\Model::check($value, $rule, $type = 'regex') /home/www/www.shop.com/Application/Home/Model/MemberModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `member` WHERE `email` = 'test3@qq.com' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2015-11-17T17:22:06+08:00 ] 172.20.10.4 /index.php/Home/Member/regist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000091s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000546s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000685s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000161s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000651s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006860s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006988s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000286s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000428s ]
+
+[ 2015-11-17T17:22:19+08:00 ] 172.20.10.4 /index.php/Home/Member/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000156s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000758s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001454s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000158s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000320s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009867s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009918s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000149s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000186s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000385s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000426s ]
+
+[ 2015-11-17T17:23:05+08:00 ] 172.20.10.4 /index.php/Home/Member/check.html?username=test4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000118s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000564s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000613s ]
+NOTIC: [2048] Declaration of Home\Model\MemberModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/www.shop.com/Application/Home/Model/MemberModel.class.php 第 16 行.
+NOTIC: [2048] Declaration of Home\Model\MemberModel::check() should be compatible with Think\Model::check($value, $rule, $type = 'regex') /home/www/www.shop.com/Application/Home/Model/MemberModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `member` WHERE `username` = 'test4' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2015-11-17T17:23:10+08:00 ] 172.20.10.4 /index.php/Home/Member/check.html?email=test4%40qq.com
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000199s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002420s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002532s ]
+NOTIC: [2048] Declaration of Home\Model\MemberModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/www.shop.com/Application/Home/Model/MemberModel.class.php 第 16 行.
+NOTIC: [2048] Declaration of Home\Model\MemberModel::check() should be compatible with Think\Model::check($value, $rule, $type = 'regex') /home/www/www.shop.com/Application/Home/Model/MemberModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `member` WHERE `email` = 'test4@qq.com' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2015-11-17T17:23:22+08:00 ] 172.20.10.4 /index.php/Home/Member/sendSMS.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000207s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000259s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000308s ]
+NOTIC: [2048] Declaration of Home\Model\MemberModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/www.shop.com/Application/Home/Model/MemberModel.class.php 第 16 行.
+NOTIC: [2048] Declaration of Home\Model\MemberModel::check() should be compatible with Think\Model::check($value, $rule, $type = 'regex') /home/www/www.shop.com/Application/Home/Model/MemberModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0005s ]
+
+[ 2015-11-17T17:23:41+08:00 ] 172.20.10.4 /index.php/Home/Member/regist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000108s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000574s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000799s ]
+NOTIC: [2048] Declaration of Home\Model\MemberModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/www.shop.com/Application/Home/Model/MemberModel.class.php 第 16 行.
+NOTIC: [2048] Declaration of Home\Model\MemberModel::check() should be compatible with Think\Model::check($value, $rule, $type = 'regex') /home/www/www.shop.com/Application/Home/Model/MemberModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: validate /home/www/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /home/www/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `member` (`username`,`email`,`password`,`salt`,`add_time`) VALUES ('test4','test4@qq.com','093357d7cab9d62f6d4bf77bf2e73dee','KkfCVq','1447752221') [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000123s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000314s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006031s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006094s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000183s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000225s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000296s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000346s ]
+
+[ 2015-11-17T17:23:42+08:00 ] 172.20.10.4 /index.php/Home/Member/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000080s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000430s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000480s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000166s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007051s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007095s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000126s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000158s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000380s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000424s ]
+
+[ 2015-11-17T17:23:46+08:00 ] 172.20.10.4 /index.php/Home/Member/check.html?email=test4%40qq.com
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000073s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000374s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000421s ]
+NOTIC: [2048] Declaration of Home\Model\MemberModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/www.shop.com/Application/Home/Model/MemberModel.class.php 第 16 行.
+NOTIC: [2048] Declaration of Home\Model\MemberModel::check() should be compatible with Think\Model::check($value, $rule, $type = 'regex') /home/www/www.shop.com/Application/Home/Model/MemberModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `member` WHERE `email` = 'test4@qq.com' LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2015-11-17T17:23:52+08:00 ] 172.20.10.4 /index.php/Home/Member/check.html?username=test5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000078s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000492s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000609s ]
+NOTIC: [2048] Declaration of Home\Model\MemberModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/www.shop.com/Application/Home/Model/MemberModel.class.php 第 16 行.
+NOTIC: [2048] Declaration of Home\Model\MemberModel::check() should be compatible with Think\Model::check($value, $rule, $type = 'regex') /home/www/www.shop.com/Application/Home/Model/MemberModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `member` WHERE `username` = 'test5' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-11-17T17:23:54+08:00 ] 172.20.10.4 /index.php/Home/Member/check.html?email=test%40qq.com
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000078s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000404s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000626s ]
+NOTIC: [2048] Declaration of Home\Model\MemberModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/www.shop.com/Application/Home/Model/MemberModel.class.php 第 16 行.
+NOTIC: [2048] Declaration of Home\Model\MemberModel::check() should be compatible with Think\Model::check($value, $rule, $type = 'regex') /home/www/www.shop.com/Application/Home/Model/MemberModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `member` WHERE `email` = 'test@qq.com' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2015-11-17T17:23:55+08:00 ] 172.20.10.4 /index.php/Home/Member/check.html?email=test5%40qq.com
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000183s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000189s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000205s ]
+NOTIC: [2048] Declaration of Home\Model\MemberModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/www.shop.com/Application/Home/Model/MemberModel.class.php 第 16 行.
+NOTIC: [2048] Declaration of Home\Model\MemberModel::check() should be compatible with Think\Model::check($value, $rule, $type = 'regex') /home/www/www.shop.com/Application/Home/Model/MemberModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `member` WHERE `email` = 'test5@qq.com' LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2015-11-17T17:24:11+08:00 ] 172.20.10.4 /index.php/Home/Member/check.html?username=test5f
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000107s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000174s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000310s ]
+NOTIC: [2048] Declaration of Home\Model\MemberModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/www.shop.com/Application/Home/Model/MemberModel.class.php 第 16 行.
+NOTIC: [2048] Declaration of Home\Model\MemberModel::check() should be compatible with Think\Model::check($value, $rule, $type = 'regex') /home/www/www.shop.com/Application/Home/Model/MemberModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `member` WHERE `username` = 'test5f' LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2015-11-17T17:24:17+08:00 ] 172.20.10.4 /index.php/Home/Member/check.html?username=test5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000195s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000370s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000416s ]
+NOTIC: [2048] Declaration of Home\Model\MemberModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/www.shop.com/Application/Home/Model/MemberModel.class.php 第 16 行.
+NOTIC: [2048] Declaration of Home\Model\MemberModel::check() should be compatible with Think\Model::check($value, $rule, $type = 'regex') /home/www/www.shop.com/Application/Home/Model/MemberModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `member` WHERE `username` = 'test5' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2015-11-17T17:24:17+08:00 ] 172.20.10.4 /index.php/Home/Member/check.html?username=test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000065s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000331s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000373s ]
+NOTIC: [2048] Declaration of Home\Model\MemberModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/www.shop.com/Application/Home/Model/MemberModel.class.php 第 16 行.
+NOTIC: [2048] Declaration of Home\Model\MemberModel::check() should be compatible with Think\Model::check($value, $rule, $type = 'regex') /home/www/www.shop.com/Application/Home/Model/MemberModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `member` WHERE `username` = 'test' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2015-11-17T17:24:19+08:00 ] 172.20.10.4 /index.php/Home/Member/check.html?username=test5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000074s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000246s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000432s ]
+NOTIC: [2048] Declaration of Home\Model\MemberModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/www.shop.com/Application/Home/Model/MemberModel.class.php 第 16 行.
+NOTIC: [2048] Declaration of Home\Model\MemberModel::check() should be compatible with Think\Model::check($value, $rule, $type = 'regex') /home/www/www.shop.com/Application/Home/Model/MemberModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `member` WHERE `username` = 'test5' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2015-11-17T17:24:24+08:00 ] 172.20.10.4 /index.php/Home/Member/check.html?username=test5df
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000071s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000825s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000856s ]
+NOTIC: [2048] Declaration of Home\Model\MemberModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/www.shop.com/Application/Home/Model/MemberModel.class.php 第 16 行.
+NOTIC: [2048] Declaration of Home\Model\MemberModel::check() should be compatible with Think\Model::check($value, $rule, $type = 'regex') /home/www/www.shop.com/Application/Home/Model/MemberModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `member` WHERE `username` = 'test5df' LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2015-11-17T17:24:26+08:00 ] 172.20.10.4 /index.php/Home/Member/check.html?username=test5dfd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000060s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000490s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000593s ]
+NOTIC: [2048] Declaration of Home\Model\MemberModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/www.shop.com/Application/Home/Model/MemberModel.class.php 第 16 行.
+NOTIC: [2048] Declaration of Home\Model\MemberModel::check() should be compatible with Think\Model::check($value, $rule, $type = 'regex') /home/www/www.shop.com/Application/Home/Model/MemberModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `member` WHERE `username` = 'test5dfd' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2015-11-17T17:24:26+08:00 ] 172.20.10.4 /index.php/Home/Member/check.html?username=test5dfdf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000100s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000472s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000584s ]
+NOTIC: [2048] Declaration of Home\Model\MemberModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/www.shop.com/Application/Home/Model/MemberModel.class.php 第 16 行.
+NOTIC: [2048] Declaration of Home\Model\MemberModel::check() should be compatible with Think\Model::check($value, $rule, $type = 'regex') /home/www/www.shop.com/Application/Home/Model/MemberModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `member` WHERE `username` = 'test5dfdf' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2015-11-17T17:24:27+08:00 ] 172.20.10.4 /index.php/Home/Member/check.html?username=test5dfdfdf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000136s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000893s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001005s ]
+NOTIC: [2048] Declaration of Home\Model\MemberModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/www.shop.com/Application/Home/Model/MemberModel.class.php 第 16 行.
+NOTIC: [2048] Declaration of Home\Model\MemberModel::check() should be compatible with Think\Model::check($value, $rule, $type = 'regex') /home/www/www.shop.com/Application/Home/Model/MemberModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `member` WHERE `username` = 'test5dfdfdf' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2015-11-17T17:24:27+08:00 ] 172.20.10.4 /index.php/Home/Member/check.html?username=test5dfdfdfd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000094s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000060s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000246s ]
+NOTIC: [2048] Declaration of Home\Model\MemberModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/www.shop.com/Application/Home/Model/MemberModel.class.php 第 16 行.
+NOTIC: [2048] Declaration of Home\Model\MemberModel::check() should be compatible with Think\Model::check($value, $rule, $type = 'regex') /home/www/www.shop.com/Application/Home/Model/MemberModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `member` WHERE `username` = 'test5dfdfdfd' LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2015-11-17T17:24:27+08:00 ] 172.20.10.4 /index.php/Home/Member/check.html?username=test5dfdfdfdf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000154s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000294s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000336s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000404s ]
+NOTIC: [2048] Declaration of Home\Model\MemberModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/www.shop.com/Application/Home/Model/MemberModel.class.php 第 16 行.
+NOTIC: [2048] Declaration of Home\Model\MemberModel::check() should be compatible with Think\Model::check($value, $rule, $type = 'regex') /home/www/www.shop.com/Application/Home/Model/MemberModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `member` WHERE `username` = 'test5dfdfdfdf' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2015-11-17T17:24:28+08:00 ] 172.20.10.4 /index.php/Home/Member/check.html?username=test5dfdfdfdfsdf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000103s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000525s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000681s ]
+NOTIC: [2048] Declaration of Home\Model\MemberModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/www.shop.com/Application/Home/Model/MemberModel.class.php 第 16 行.
+NOTIC: [2048] Declaration of Home\Model\MemberModel::check() should be compatible with Think\Model::check($value, $rule, $type = 'regex') /home/www/www.shop.com/Application/Home/Model/MemberModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `member` WHERE `username` = 'test5dfdfdfdfsdf' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2015-11-17T17:24:29+08:00 ] 172.20.10.4 /index.php/Home/Member/check.html?username=test5dfdfdfdfsdfd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000102s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000411s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000462s ]
+NOTIC: [2048] Declaration of Home\Model\MemberModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/www.shop.com/Application/Home/Model/MemberModel.class.php 第 16 行.
+NOTIC: [2048] Declaration of Home\Model\MemberModel::check() should be compatible with Think\Model::check($value, $rule, $type = 'regex') /home/www/www.shop.com/Application/Home/Model/MemberModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `member` WHERE `username` = 'test5dfdfdfdfsdfd' LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2015-11-17T17:24:32+08:00 ] 172.20.10.4 /index.php/Home/Member/check.html?email=testdf5%40qq.com
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000173s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000265s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000311s ]
+NOTIC: [2048] Declaration of Home\Model\MemberModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/www.shop.com/Application/Home/Model/MemberModel.class.php 第 16 行.
+NOTIC: [2048] Declaration of Home\Model\MemberModel::check() should be compatible with Think\Model::check($value, $rule, $type = 'regex') /home/www/www.shop.com/Application/Home/Model/MemberModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `member` WHERE `email` = 'testdf5@qq.com' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2015-11-17T17:24:32+08:00 ] 172.20.10.4 /index.php/Home/Member/check.html?email=testdfd5%40qq.com
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000170s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000370s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000417s ]
+NOTIC: [2048] Declaration of Home\Model\MemberModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/www.shop.com/Application/Home/Model/MemberModel.class.php 第 16 行.
+NOTIC: [2048] Declaration of Home\Model\MemberModel::check() should be compatible with Think\Model::check($value, $rule, $type = 'regex') /home/www/www.shop.com/Application/Home/Model/MemberModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `member` WHERE `email` = 'testdfd5@qq.com' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2015-11-17T17:24:41+08:00 ] 172.20.10.4 /index.php/Home/Member/check.html?username=test5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000097s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000435s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000611s ]
+NOTIC: [2048] Declaration of Home\Model\MemberModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/www.shop.com/Application/Home/Model/MemberModel.class.php 第 16 行.
+NOTIC: [2048] Declaration of Home\Model\MemberModel::check() should be compatible with Think\Model::check($value, $rule, $type = 'regex') /home/www/www.shop.com/Application/Home/Model/MemberModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `member` WHERE `username` = 'test5' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2015-11-17T17:24:45+08:00 ] 172.20.10.4 /index.php/Home/Member/check.html?username=test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000069s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000386s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000427s ]
+NOTIC: [2048] Declaration of Home\Model\MemberModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/www.shop.com/Application/Home/Model/MemberModel.class.php 第 16 行.
+NOTIC: [2048] Declaration of Home\Model\MemberModel::check() should be compatible with Think\Model::check($value, $rule, $type = 'regex') /home/www/www.shop.com/Application/Home/Model/MemberModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `member` WHERE `username` = 'test' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2015-11-17T17:24:46+08:00 ] 172.20.10.4 /index.php/Home/Member/check.html?username=test4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000078s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000417s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000463s ]
+NOTIC: [2048] Declaration of Home\Model\MemberModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/www.shop.com/Application/Home/Model/MemberModel.class.php 第 16 行.
+NOTIC: [2048] Declaration of Home\Model\MemberModel::check() should be compatible with Think\Model::check($value, $rule, $type = 'regex') /home/www/www.shop.com/Application/Home/Model/MemberModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `member` WHERE `username` = 'test4' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2015-11-17T17:24:50+08:00 ] 172.20.10.4 /index.php/Home/Member/check.html?username=test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000174s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000376s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000427s ]
+NOTIC: [2048] Declaration of Home\Model\MemberModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/www.shop.com/Application/Home/Model/MemberModel.class.php 第 16 行.
+NOTIC: [2048] Declaration of Home\Model\MemberModel::check() should be compatible with Think\Model::check($value, $rule, $type = 'regex') /home/www/www.shop.com/Application/Home/Model/MemberModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `member` WHERE `username` = 'test' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2015-11-17T17:24:50+08:00 ] 172.20.10.4 /index.php/Home/Member/check.html?username=test5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000024s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000330s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000365s ]
+NOTIC: [2048] Declaration of Home\Model\MemberModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/www.shop.com/Application/Home/Model/MemberModel.class.php 第 16 行.
+NOTIC: [2048] Declaration of Home\Model\MemberModel::check() should be compatible with Think\Model::check($value, $rule, $type = 'regex') /home/www/www.shop.com/Application/Home/Model/MemberModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `member` WHERE `username` = 'test5' LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2015-11-17T17:24:54+08:00 ] 172.20.10.4 /index.php/Home/Member/check.html?username=test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000062s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000358s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000399s ]
+NOTIC: [2048] Declaration of Home\Model\MemberModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/www.shop.com/Application/Home/Model/MemberModel.class.php 第 16 行.
+NOTIC: [2048] Declaration of Home\Model\MemberModel::check() should be compatible with Think\Model::check($value, $rule, $type = 'regex') /home/www/www.shop.com/Application/Home/Model/MemberModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `member` WHERE `username` = 'test' LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2015-11-17T17:24:55+08:00 ] 172.20.10.4 /index.php/Home/Member/check.html?username=test6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000100s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000439s ]
+NOTIC: [2048] Declaration of Home\Model\MemberModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/www.shop.com/Application/Home/Model/MemberModel.class.php 第 16 行.
+NOTIC: [2048] Declaration of Home\Model\MemberModel::check() should be compatible with Think\Model::check($value, $rule, $type = 'regex') /home/www/www.shop.com/Application/Home/Model/MemberModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `member` WHERE `username` = 'test6' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2015-11-17T17:24:58+08:00 ] 172.20.10.4 /index.php/Home/Member/check.html?username=test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000079s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000409s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000456s ]
+NOTIC: [2048] Declaration of Home\Model\MemberModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/www.shop.com/Application/Home/Model/MemberModel.class.php 第 16 行.
+NOTIC: [2048] Declaration of Home\Model\MemberModel::check() should be compatible with Think\Model::check($value, $rule, $type = 'regex') /home/www/www.shop.com/Application/Home/Model/MemberModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `member` WHERE `username` = 'test' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2015-11-17T17:24:58+08:00 ] 172.20.10.4 /index.php/Home/Member/check.html?username=test4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000048s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000337s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000378s ]
+NOTIC: [2048] Declaration of Home\Model\MemberModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/www.shop.com/Application/Home/Model/MemberModel.class.php 第 16 行.
+NOTIC: [2048] Declaration of Home\Model\MemberModel::check() should be compatible with Think\Model::check($value, $rule, $type = 'regex') /home/www/www.shop.com/Application/Home/Model/MemberModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `member` WHERE `username` = 'test4' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2015-11-17T17:25:03+08:00 ] 172.20.10.4 /index.php/Home/Member/check.html?email=testdfd%40qq.com
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000227s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000223s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000270s ]
+NOTIC: [2048] Declaration of Home\Model\MemberModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/www.shop.com/Application/Home/Model/MemberModel.class.php 第 16 行.
+NOTIC: [2048] Declaration of Home\Model\MemberModel::check() should be compatible with Think\Model::check($value, $rule, $type = 'regex') /home/www/www.shop.com/Application/Home/Model/MemberModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `member` WHERE `email` = 'testdfd@qq.com' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2015-11-17T17:25:04+08:00 ] 172.20.10.4 /index.php/Home/Member/check.html?email=testdfd4%40qq.com
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000239s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000381s ]
+NOTIC: [2048] Declaration of Home\Model\MemberModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/www.shop.com/Application/Home/Model/MemberModel.class.php 第 16 行.
+NOTIC: [2048] Declaration of Home\Model\MemberModel::check() should be compatible with Think\Model::check($value, $rule, $type = 'regex') /home/www/www.shop.com/Application/Home/Model/MemberModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `member` WHERE `email` = 'testdfd4@qq.com' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2015-11-17T17:25:09+08:00 ] 172.20.10.4 /index.php/Home/Member/check.html?email=testdfd%40qq.com
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000065s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000223s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000305s ]
+NOTIC: [2048] Declaration of Home\Model\MemberModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/www.shop.com/Application/Home/Model/MemberModel.class.php 第 16 行.
+NOTIC: [2048] Declaration of Home\Model\MemberModel::check() should be compatible with Think\Model::check($value, $rule, $type = 'regex') /home/www/www.shop.com/Application/Home/Model/MemberModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `member` WHERE `email` = 'testdfd@qq.com' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2015-11-17T17:25:09+08:00 ] 172.20.10.4 /index.php/Home/Member/check.html?email=testdf%40qq.com
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000015s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000341s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000379s ]
+NOTIC: [2048] Declaration of Home\Model\MemberModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/www.shop.com/Application/Home/Model/MemberModel.class.php 第 16 行.
+NOTIC: [2048] Declaration of Home\Model\MemberModel::check() should be compatible with Think\Model::check($value, $rule, $type = 'regex') /home/www/www.shop.com/Application/Home/Model/MemberModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `member` WHERE `email` = 'testdf@qq.com' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2015-11-17T17:25:09+08:00 ] 172.20.10.4 /index.php/Home/Member/check.html?email=testd%40qq.com
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000063s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000459s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000648s ]
+NOTIC: [2048] Declaration of Home\Model\MemberModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/www.shop.com/Application/Home/Model/MemberModel.class.php 第 16 行.
+NOTIC: [2048] Declaration of Home\Model\MemberModel::check() should be compatible with Think\Model::check($value, $rule, $type = 'regex') /home/www/www.shop.com/Application/Home/Model/MemberModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `member` WHERE `email` = 'testd@qq.com' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2015-11-17T17:25:09+08:00 ] 172.20.10.4 /index.php/Home/Member/check.html?email=test%40qq.com
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000302s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000354s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000399s ]
+NOTIC: [2048] Declaration of Home\Model\MemberModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/www.shop.com/Application/Home/Model/MemberModel.class.php 第 16 行.
+NOTIC: [2048] Declaration of Home\Model\MemberModel::check() should be compatible with Think\Model::check($value, $rule, $type = 'regex') /home/www/www.shop.com/Application/Home/Model/MemberModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `member` WHERE `email` = 'test@qq.com' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2015-11-17T17:25:10+08:00 ] 172.20.10.4 /index.php/Home/Member/check.html?email=test4%40qq.com
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000064s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000412s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000453s ]
+NOTIC: [2048] Declaration of Home\Model\MemberModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/www.shop.com/Application/Home/Model/MemberModel.class.php 第 16 行.
+NOTIC: [2048] Declaration of Home\Model\MemberModel::check() should be compatible with Think\Model::check($value, $rule, $type = 'regex') /home/www/www.shop.com/Application/Home/Model/MemberModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `member` WHERE `email` = 'test4@qq.com' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2015-11-17T17:25:13+08:00 ] 172.20.10.4 /index.php/Home/Member/check.html?email=test4df%40qq.com
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000091s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000393s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000435s ]
+NOTIC: [2048] Declaration of Home\Model\MemberModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/www.shop.com/Application/Home/Model/MemberModel.class.php 第 16 行.
+NOTIC: [2048] Declaration of Home\Model\MemberModel::check() should be compatible with Think\Model::check($value, $rule, $type = 'regex') /home/www/www.shop.com/Application/Home/Model/MemberModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `member` WHERE `email` = 'test4df@qq.com' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2015-11-17T17:25:13+08:00 ] 172.20.10.4 /index.php/Home/Member/check.html?email=test4dff%40qq.com
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000169s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000208s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000224s ]
+NOTIC: [2048] Declaration of Home\Model\MemberModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/www.shop.com/Application/Home/Model/MemberModel.class.php 第 16 行.
+NOTIC: [2048] Declaration of Home\Model\MemberModel::check() should be compatible with Think\Model::check($value, $rule, $type = 'regex') /home/www/www.shop.com/Application/Home/Model/MemberModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `member` WHERE `email` = 'test4dff@qq.com' LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2015-11-17T17:25:15+08:00 ] 172.20.10.4 /index.php/Home/Member/check.html?username=test4df
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000111s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000300s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000458s ]
+NOTIC: [2048] Declaration of Home\Model\MemberModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/www.shop.com/Application/Home/Model/MemberModel.class.php 第 16 行.
+NOTIC: [2048] Declaration of Home\Model\MemberModel::check() should be compatible with Think\Model::check($value, $rule, $type = 'regex') /home/www/www.shop.com/Application/Home/Model/MemberModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `member` WHERE `username` = 'test4df' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2015-11-17T17:25:15+08:00 ] 172.20.10.4 /index.php/Home/Member/check.html?username=test4dfd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000081s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000439s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000485s ]
+NOTIC: [2048] Declaration of Home\Model\MemberModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/www.shop.com/Application/Home/Model/MemberModel.class.php 第 16 行.
+NOTIC: [2048] Declaration of Home\Model\MemberModel::check() should be compatible with Think\Model::check($value, $rule, $type = 'regex') /home/www/www.shop.com/Application/Home/Model/MemberModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `member` WHERE `username` = 'test4dfd' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2015-11-17T17:25:15+08:00 ] 172.20.10.4 /index.php/Home/Member/check.html?username=test4dfdf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000118s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000374s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000414s ]
+NOTIC: [2048] Declaration of Home\Model\MemberModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/www.shop.com/Application/Home/Model/MemberModel.class.php 第 16 行.
+NOTIC: [2048] Declaration of Home\Model\MemberModel::check() should be compatible with Think\Model::check($value, $rule, $type = 'regex') /home/www/www.shop.com/Application/Home/Model/MemberModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `member` WHERE `username` = 'test4dfdf' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2015-11-17T18:06:39+08:00 ] 172.20.10.4 /index.php/Home/Member/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000076s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000258s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000294s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000418s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000649s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008129s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008230s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000150s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000183s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000057s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000326s ]
+
+[ 2015-11-17T18:07:59+08:00 ] 172.20.10.4 /index.php/Home/Member/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000109s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000379s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000221s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000785s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009340s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009533s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000150s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000197s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000427s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000479s ]
+
+[ 2015-11-17T18:08:01+08:00 ] 172.20.10.4 /index.php/Home/Member/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000081s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000493s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000555s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000109s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000182s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007846s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007905s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000200s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000241s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000552s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000606s ]
+
+[ 2015-11-17T18:08:08+08:00 ] 172.20.10.4 /index.php/Home/Member/sendSMS.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000107s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000218s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000123s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000165s ]
+NOTIC: [2048] Declaration of Home\Model\MemberModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/www.shop.com/Application/Home/Model/MemberModel.class.php 第 16 行.
+NOTIC: [2048] Declaration of Home\Model\MemberModel::check() should be compatible with Think\Model::check($value, $rule, $type = 'regex') /home/www/www.shop.com/Application/Home/Model/MemberModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0007s ]
+
+[ 2015-11-17T18:08:54+08:00 ] 172.20.10.4 /index.php/Home/Member/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000073s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000431s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000519s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000259s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000882s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006151s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006192s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000151s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000188s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000362s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000376s ]
+
+[ 2015-11-17T18:09:57+08:00 ] 172.20.10.4 /index.php/Home/Member/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000077s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000476s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000159s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008312s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008351s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000213s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000250s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000431s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000473s ]
+
+[ 2015-11-17T18:09:58+08:00 ] 172.20.10.4 /index.php/Home/Member/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000074s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000405s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000507s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000364s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000749s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007537s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007627s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000182s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000273s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000367s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000408s ]
+
+[ 2015-11-17T18:09:59+08:00 ] 172.20.10.4 /index.php/Home/Member/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000233s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000430s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000481s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000257s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000483s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008436s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008579s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000135s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000200s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000373s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000415s ]
+
+[ 2015-11-17T18:10:00+08:00 ] 172.20.10.4 /index.php/Home/Member/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000017s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000398s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000455s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000105s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000173s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009776s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009860s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000135s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000167s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000450s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000493s ]
+
+[ 2015-11-17T18:10:17+08:00 ] 172.20.10.4 /index.php/Home/Member/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000350s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001259s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001446s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000209s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000304s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017698s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017882s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000204s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000326s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000267s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000319s ]
+

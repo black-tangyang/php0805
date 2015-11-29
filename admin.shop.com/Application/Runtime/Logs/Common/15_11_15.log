@@ -1,0 +1,36 @@
+[ 2015-11-15T03:32:43+08:00 ] 192.168.0.174 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000113s ]
+ERR: 无法加载模块:Favicon
+
+[ 2015-11-15T05:42:18+08:00 ] 192.168.0.174 /%22Uploads/brand/2015-11-09/564083f7d6b86.jpeg%22
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000193s ]
+ERR: 无法加载模块:"Uploads
+
+[ 2015-11-15T05:42:18+08:00 ] 192.168.0.174 /%22Uploads/good/2015-11-15/56479b8157585.jpg%22
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000115s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+ERR: 无法加载模块:"Uploads
+
+[ 2015-11-15T05:42:18+08:00 ] 192.168.0.174 /%22Uploads/good/2015-11-10/5641f0ebdabdc.jpeg%22
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000091s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000402s ]
+ERR: 无法加载模块:"Uploads
+
+[ 2015-11-15T05:42:18+08:00 ] 192.168.0.174 /%22Uploads/good/2015-11-10/5641b82f338e2.jpeg%22
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000145s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000389s ]
+ERR: 无法加载模块:"Uploads
+
+[ 2015-11-15T19:02:26+08:00 ] 192.168.0.174 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000048s ]
+ERR: 无法加载模块:Favicon
+

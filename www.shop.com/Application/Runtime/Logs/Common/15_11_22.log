@@ -1,0 +1,78 @@
+[ 2015-11-22T18:29:45+08:00 ] 192.168.0.104 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000123s ]
+ERR: 无法加载模块:Favicon
+
+[ 2015-11-22T20:02:15+08:00 ] 192.168.0.104 //Public/Home/images/good/2015-11-15/56479b8157585.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000072s ]
+ERR: 无法加载模块:404
+
+[ 2015-11-22T20:02:15+08:00 ] 192.168.0.104 //Public/Home/images/good/2015-11-10/5641f0ebdabdc.jpeg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000064s ]
+ERR: 无法加载模块:404
+
+[ 2015-11-22T20:02:58+08:00 ] 192.168.0.104 //Public/Home/images/good/2015-11-15/56479b8157585.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000115s ]
+ERR: 无法加载模块:404
+
+[ 2015-11-22T20:02:58+08:00 ] 192.168.0.104 //Public/Home/images/good/2015-11-10/5641f0ebdabdc.jpeg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000416s ]
+ERR: 无法加载模块:404
+
+[ 2015-11-22T20:03:13+08:00 ] 192.168.0.104 //Public/Home/images/good/2015-11-10/5641f0ebdabdc.jpeg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000153s ]
+ERR: 无法加载模块:404
+
+[ 2015-11-22T20:03:13+08:00 ] 192.168.0.104 //Public/Home/images/good/2015-11-15/56479b8157585.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000106s ]
+ERR: 无法加载模块:404
+
+[ 2015-11-22T20:03:14+08:00 ] 192.168.0.104 //Public/Home/images/good/2015-11-15/56479b8157585.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000270s ]
+ERR: 无法加载模块:404
+
+[ 2015-11-22T20:03:14+08:00 ] 192.168.0.104 //Public/Home/images/good/2015-11-10/5641f0ebdabdc.jpeg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000110s ]
+ERR: 无法加载模块:404
+
+[ 2015-11-22T20:03:41+08:00 ] 192.168.0.104 //Public/Home/images/good/2015-11-10/5641f0ebdabdc.jpeg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000074s ]
+ERR: 无法加载模块:404
+
+[ 2015-11-22T20:03:41+08:00 ] 192.168.0.104 //Public/Home/images/good/2015-11-15/56479b8157585.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000093s ]
+ERR: 无法加载模块:404
+
+[ 2015-11-22T20:06:37+08:00 ] 192.168.0.104 //Public/Home/images/good/2015-11-15/56479b8157585.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000332s ]
+ERR: 无法加载模块:404
+
+[ 2015-11-22T20:06:37+08:00 ] 192.168.0.104 //Public/Home/images/good/2015-11-10/5641f0ebdabdc.jpeg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000081s ]
+ERR: 无法加载模块:404
+

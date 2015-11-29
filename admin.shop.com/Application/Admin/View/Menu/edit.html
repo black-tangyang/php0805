@@ -1,0 +1,181 @@
+<extend name="Common:edit"/>
+<block name="CSS">
+    <link rel="stylesheet" href="__ZTREE_V3__/css/zTreeStyle/zTreeStyle.css" type="text/css">
+</block>
+<block name="content">
+    <div class="main-div">
+        <form method="post" action="{:U()}" enctype="multipart/form-data">
+            <table cellspacing="1" cellpadding="3" width="100%">
+                <tr>
+                    <td class='label'>名称</td>
+                    <td>
+                        <input type='text' name='name' maxlength='60' value='{$name}'/>
+                        <span class='require-field'>*</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class='label'>URL</td>
+                    <td>
+                        <input type='text' name='url' maxlength='60' value='{$url}'/>
+                        <span class='require-field'>*</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class='label'>父菜单</td>
+                    <td>
+                        <input type='text' class="parent_text" disabled="disabled" maxlength='60' value='默认为顶级分类'/>
+                        <input type='hidden' class="parent_id" name='parent_id' maxlength='60' value='{$parent_id}'/>
+                        <span class='require-field'>*</span>
+
+                        <div style="border: 1px solid gainsboro;width: 245px;">
+                            <ul id="tree" class="ztree" style="width:260px; overflow:auto;"></ul>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td class='label'>菜单权限</td>
+                    <td>
+                        <div class="permissiondiv">
+
+                        </div>
+                        <div style="border: 1px solid gainsboro;width: 245px;">
+                            <ul id="tree2" class="ztree" style="width:260px; overflow:auto;"></ul>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td class='label'>简介</td>
+                    <td>
+                        <textarea name='intro' cols='60' rows='4'>{$intro}</textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td class='label'>状态</td>
+                    <td><input type='radio' name='status' class='box' value='1'/> 是<input type='radio' name='status'
+                                                                                          class='box' value='0'/> 否
+                    </td>
+                </tr>
+                <tr>
+                    <td class='label'>排序</td>
+                    <td>
+                        <input type='text' name='sort' maxlength='60' value='{$sort}'/>
+                        <span class='require-field'>*</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center"><br/>
+                        <input type="hidden" name="id" value="{$id}"/>
+                        <input type="submit" class="button ajax_post1" value=" 确定 "/>
+                        <input type="reset" class="button" value=" 重置 "/>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</block>
+<block name="JS">
+    <script type="text/javascript" src="__ZTREE_V3__/js/jquery-1.4.4.min.js"></script>
+    <script type="text/javascript" src="__ZTREE_V3__/js/jquery.ztree.core-3.5.js"></script>
+    <script type="text/javascript" src="__ZTREE_V3__/js/jquery.ztree.excheck-3.5.js"></script>
+    <SCRIPT type="text/javascript">
+        $(function () {
+    /////////////////////菜单父级分类的ztree树     开始////////////////////////
+            var setting = {
+                view: {
+                    dblClickExpand: false,
+                    showLine: true,
+                    selectedMulti: false,
+                },
+                data: {
+                    simpleData: {
+                        enable: true,
+                        idKey: "id",
+                        pIdKey: "parent_id",
+                        rootPId: ""
+                    }
+                },
+
+                callback: {
+                    onClick: zTreeOnClick
+                }
+            };
+
+            var zNodes = {$rows1};
+
+
+            var t = $("#tree");
+            t = $.fn.zTree.init(t, setting, zNodes);
+            t.expandAll(true);
+
+            function zTreeOnClick(event, treeId, treeNode) {
+                $(".parent_text").val(treeNode.name);
+                $(".parent_id").val(treeNode.id);
+            };
+
+            <notempty name='id'>
+            var parent_id={$parent_id};
+            if (parent_id) {
+                var node = t.getNodeByParam("id",parent_id);
+                t.selectNode(node);
+                $(".parent_text").val(node.name);
+            }
+            </notempty>
+            /////////////////////菜单项父级分类的ztree树     结束////////////////////////
+
+            /////////////////////菜单项对应的权限ztree树     开始////////////////////////
+
+            var setting = {
+                check: {
+                    enable: true
+                },
+                view: {
+                    dblClickExpand: false,
+                    showLine: true,
+                    selectedMulti: false,
+                },
+                data: {
+                    simpleData: {
+                        enable: true,
+                        idKey: "id",
+                        pIdKey: "parent_id",
+                        rootPId: ""
+                    }
+                },
+
+                callback: {
+                    onCheck: zTreeOnCheck,
+                }
+            };
+
+            var zNodes = {$rows2};
+
+
+            var t2 = $("#tree2");
+            t2 = $.fn.zTree.init(t2, setting, zNodes);
+            t2.expandAll(true);
+
+            function zTreeOnCheck(event, treeId, treeNode) {
+                var node= t2.getCheckedNodes(true);
+                $(".permissiondiv").empty();
+                $(node).each(function(){
+                    html="<input type='hidden' name='permission_ids[]' value='"+this.id+"' />";
+                    $(".permissiondiv").append($(html));
+                })
+
+            };
+
+            <notempty name='id'>
+            var permission_list={$permission_list};
+            $(permission_list).each(function() {
+                var node = t2.getNodeByParam('id', this);
+                t2.checkNode(node, true, false, true);
+            })
+            </notempty>
+
+
+            /////////////////////菜单项对应的权限ztree树     结束////////////////////////
+        })
+
+
+    </SCRIPT>
+</block>
